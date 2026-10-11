@@ -1,0 +1,13 @@
+,,R2_test,R2_test,NRMSE_test,NRMSE_test
+,,mean,std,mean,std
+model,split,,,,
+Baseline OLS,70/30,0.1705,0.1167,0.2124,0.0242
+Baseline OLS,80/20,0.1732,0.1535,0.2262,0.0332
+OLS + clip negatives at 0,70/30,0.1744,0.1155,0.2119,0.0242
+OLS + clip negatives at 0,80/20,0.1768,0.1524,0.2258,0.033
+OLS on log1p(goals),70/30,0.161,0.1031,0.2139,0.0241
+OLS on log1p(goals),80/20,0.1593,0.1302,0.2283,0.03
+OLS on sqrt(goals),70/30,0.1306,0.1158,0.2176,0.025
+OLS on sqrt(goals),80/20,0.126,0.1489,0.2326,0.0316
+"Ridge (CV alpha, scaled)",70/30,0.1875,0.0886,0.2105,0.0231
+"Ridge (CV alpha, scaled)",80/20,0.1875,0.1229,0.2246,0.0304
