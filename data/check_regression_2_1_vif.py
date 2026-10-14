@@ -1,7 +1,10 @@
+
 import os
 import pandas as pd
 import numpy as np
+
 from statsmodels.stats.outliers_influence import variance_inflation_factor
+from statsmodels.tools.tools import add_constant
 
 
 # ============================================================
@@ -65,6 +68,16 @@ if len(df) != 104:
     )
 
 
+if df["match_id"].nunique() != 104:
+
+    raise ValueError(
+        "Expected exactly 104 unique match IDs."
+    )
+
+
+print("Row-count validation: PASSED")
+
+
 # ============================================================
 # 3. DEFINE EXACTLY 8 PREDICTORS
 # ============================================================
@@ -91,10 +104,7 @@ predictors = [
 
 print("\nPredictors:")
 
-for i, predictor in enumerate(
-    predictors,
-    start=1
-):
+for i, predictor in enumerate(predictors, start=1):
 
     print(f"{i}. {predictor}")
 
@@ -111,11 +121,8 @@ if len(predictors) != 8:
 # ============================================================
 
 missing_columns = [
-
     predictor
-
     for predictor in predictors
-
     if predictor not in df.columns
 ]
 
@@ -127,19 +134,17 @@ if missing_columns:
     )
 
 
+print("\nPredictor-column validation: PASSED")
+
+
 # ============================================================
 # 5. CHECK MISSING VALUES
 # ============================================================
 
-missing_values = (
-    df[predictors]
-    .isna()
-    .sum()
-)
+missing_values = df[predictors].isna().sum()
 
 
 print("\nMissing values:")
-
 print(missing_values)
 
 
@@ -151,20 +156,18 @@ if missing_values.sum() != 0:
     )
 
 
+print("\nMissing-value validation: PASSED")
+
+
 # ============================================================
 # 6. CHECK CONSTANT VARIABLES
 # ============================================================
 
-unique_counts = (
-    df[predictors]
-    .nunique()
-)
+unique_counts = df[predictors].nunique()
 
 
 constant_variables = (
-    unique_counts[
-        unique_counts <= 1
-    ]
+    unique_counts[unique_counts <= 1]
     .index
     .tolist()
 )
@@ -185,33 +188,45 @@ print("\nConstant-variable check: PASSED")
 # 7. PREPARE NUMERIC MATRIX
 # ============================================================
 
-X = (
-    df[predictors]
-    .astype(float)
-    .copy()
+X = df[predictors].astype(float).copy()
+
+
+if not np.isfinite(X.to_numpy()).all():
+
+    raise ValueError(
+        "Infinite or invalid numeric values detected."
+    )
+
+
+# ============================================================
+# 8. CALCULATE VIF WITH INTERCEPT
+# ============================================================
+
+# Add a constant to calculate standard centered VIF.
+# The constant itself is excluded from the reported VIFs.
+
+X_with_constant = add_constant(
+    X,
+    has_constant="add"
 )
 
 
-# ============================================================
-# 8. CALCULATE VIF
-# ============================================================
+vif_results = pd.DataFrame({
 
-vif_results = pd.DataFrame()
+    "Predictor": predictors,
 
-vif_results["Predictor"] = predictors
+    "VIF": [
 
+        variance_inflation_factor(
+            X_with_constant.values,
+            i + 1
+        )
 
-vif_results["VIF"] = [
+        for i in range(len(predictors))
 
-    variance_inflation_factor(
-        X.values,
-        i
-    )
+    ]
 
-    for i in range(
-        X.shape[1]
-    )
-]
+})
 
 
 # ============================================================
@@ -229,9 +244,7 @@ vif_results = (
 
 
 print("\n" + "=" * 70)
-
 print("VIF RESULTS")
-
 print("=" * 70)
 
 
@@ -246,13 +259,11 @@ print(
 
 
 # ============================================================
-# 10. SIMPLE DIAGNOSTIC GROUPS
+# 10. VIF DIAGNOSTIC SUMMARY
 # ============================================================
 
 print("\n" + "=" * 70)
-
 print("VIF DIAGNOSTIC SUMMARY")
-
 print("=" * 70)
 
 
@@ -275,7 +286,7 @@ high_vif = vif_results[
 
 print("\nVIF < 5:")
 
-if len(low_vif) > 0:
+if not low_vif.empty:
 
     for _, row in low_vif.iterrows():
 
@@ -291,7 +302,7 @@ else:
 
 print("\nVIF 5 to <10:")
 
-if len(moderate_vif) > 0:
+if not moderate_vif.empty:
 
     for _, row in moderate_vif.iterrows():
 
@@ -307,7 +318,7 @@ else:
 
 print("\nVIF >= 10:")
 
-if len(high_vif) > 0:
+if not high_vif.empty:
 
     for _, row in high_vif.iterrows():
 
@@ -322,19 +333,15 @@ else:
 
 
 # ============================================================
-# 11. CORRELATION MATRIX FOR COMPARISON
+# 11. CORRELATION MATRIX
 # ============================================================
 
 print("\n" + "=" * 70)
-
 print("CORRELATION MATRIX")
-
 print("=" * 70)
 
 
-correlation_matrix = (
-    X.corr()
-)
+correlation_matrix = X.corr()
 
 
 print(
@@ -359,22 +366,15 @@ high_corr_pairs = []
 
 for i in range(len(predictors)):
 
-    for j in range(
-        i + 1,
-        len(predictors)
-    ):
+    for j in range(i + 1, len(predictors)):
 
         predictor_a = predictors[i]
-
         predictor_b = predictors[j]
 
-        correlation = (
-            correlation_matrix.loc[
-                predictor_a,
-                predictor_b
-            ]
-        )
-
+        correlation = correlation_matrix.loc[
+            predictor_a,
+            predictor_b
+        ]
 
         if abs(correlation) >= 0.80:
 
@@ -389,11 +389,7 @@ for i in range(len(predictors)):
 
 if high_corr_pairs:
 
-    for (
-        predictor_a,
-        predictor_b,
-        correlation
-    ) in high_corr_pairs:
+    for predictor_a, predictor_b, correlation in high_corr_pairs:
 
         print(
             f" - {predictor_a} "
@@ -407,21 +403,32 @@ else:
 
 
 # ============================================================
-# 13. FINISH
+# 13. FINAL SUMMARY
 # ============================================================
 
 print("\n" + "=" * 70)
-
 print("VIF CHECK COMPLETE")
-
 print("=" * 70)
 
+
+print("\nRows checked:", len(df))
+print("Predictors checked:", len(predictors))
+
 print(
-    "\nDo not automatically remove a predictor "
+    "Highest VIF:",
+    round(vif_results["VIF"].max(), 3)
+)
+
+
+print("\nIMPORTANT:")
+
+print(
+    "Do not automatically remove a predictor "
     "based only on VIF."
 )
 
 print(
-    "Interpret VIF together with predictor rationale, "
-    "correlations and the assessment requirements."
+    "Interpret VIF together with correlations, "
+    "football rationale, pre-match validity "
+    "and the Assessment 3 requirements."
 )

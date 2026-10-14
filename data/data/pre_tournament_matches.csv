@@ -1,24 +1,24 @@
 match_date,team,opponent,goals_scored,goals_conceded
+2026-01-10,Algeria,Nigeria,0,2
 2026-03-27,Algeria,Guatemala,7,0
 2026-03-31,Algeria,Uruguay,0,0
 2026-06-03,Algeria,Netherlands,1,0
 2026-06-10,Algeria,Bolivia,4,0
-2026-06-16,Algeria,Argentina,0,3
+2025-11-14,Argentina,Angola,2,0
 2026-03-27,Argentina,Mauritania,2,1
 2026-03-31,Argentina,Zambia,5,0
 2026-06-06,Argentina,Honduras,2,0
 2026-06-09,Argentina,Iceland,3,0
-2026-06-16,Argentina,Algeria,3,0
+2025-11-18,Australia,Colombia,0,3
 2026-03-27,Australia,Cameroon,1,0
 2026-03-31,Australia,Curaçao,5,1
 2026-05-30,Australia,Mexico,0,1
 2026-06-06,Australia,Switzerland,1,1
-2026-06-13,Australia,Turkey,2,0
+2025-11-15,Austria,Cyprus,2,0
 2025-11-18,Austria,Bosnia and Herzegovina,1,1
 2026-03-27,Austria,Ghana,5,1
 2026-03-31,Austria,South Korea,1,0
 2026-06-01,Austria,Tunisia,1,0
-2026-06-16,Austria,Jordan,3,1
 2025-11-18,Belgium,Liechtenstein,7,0
 2026-03-28,Belgium,United States,5,2
 2026-03-31,Belgium,Mexico,1,1
@@ -44,11 +44,11 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-31,Canada,Tunisia,0,0
 2026-06-01,Canada,Uzbekistan,2,0
 2026-06-05,Canada,Republic of Ireland,1,1
+2025-11-18,Colombia,Australia,3,0
 2026-03-26,Colombia,Croatia,1,2
 2026-03-29,Colombia,France,1,3
 2026-06-01,Colombia,Costa Rica,3,1
 2026-06-07,Colombia,Jordan,2,0
-2026-06-17,Colombia,Uzbekistan,3,1
 2026-01-06,Congo DR,Algeria,0,1
 2026-03-25,Congo DR,Bermuda,2,0
 2026-03-31,Congo DR,Jamaica,1,0
@@ -64,11 +64,11 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-31,Curaçao,Australia,1,5
 2026-05-30,Curaçao,Scotland,1,4
 2026-06-06,Curaçao,Aruba,4,0
+2025-11-17,Czechia,Gibraltar,6,0
 2026-03-26,Czechia,Republic of Ireland,2,2
 2026-03-31,Czechia,Denmark,2,2
 2026-05-31,Czechia,Kosovo,2,1
 2026-06-04,Czechia,Guatemala,5,1
-2026-06-11,Czechia,South Korea,1,2
 2026-01-06,Côte d'Ivoire,Burkina Faso,3,0
 2026-01-10,Côte d'Ivoire,Egypt,2,3
 2026-03-28,Côte d'Ivoire,South Korea,4,0
@@ -104,16 +104,16 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-30,Ghana,Germany,1,2
 2026-05-22,Ghana,Mexico,0,2
 2026-06-02,Ghana,Wales,1,1
+2025-11-18,Haiti,Nicaragua,2,0
 2026-03-28,Haiti,Tunisia,0,1
 2026-03-31,Haiti,Iceland,1,1
 2026-06-02,Haiti,New Zealand,4,0
 2026-06-05,Haiti,Peru,1,2
-2026-06-13,Haiti,Scotland,0,1
+2025-11-18,IR Iran,Uzbekistan,0,0
 2026-03-27,IR Iran,Nigeria,1,2
 2026-03-31,IR Iran,Costa Rica,5,0
 2026-05-29,IR Iran,Gambia,3,1
 2026-06-04,IR Iran,Mali,2,0
-2026-06-15,IR Iran,New Zealand,2,2
 2025-12-12,Iraq,Jordan,0,1
 2026-03-31,Iraq,Bolivia,2,1
 2026-05-29,Iraq,Andorra,1,0
@@ -124,16 +124,16 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-28,Japan,Scotland,1,0
 2026-03-31,Japan,England,1,0
 2026-05-31,Japan,Iceland,1,0
+2025-12-18,Jordan,Morocco,2,3
 2026-03-27,Jordan,Costa Rica,2,2
 2026-03-31,Jordan,Nigeria,2,2
 2026-05-31,Jordan,Switzerland,1,4
 2026-06-07,Jordan,Colombia,0,2
-2026-06-16,Jordan,Austria,1,3
+2025-11-18,Korea Republic,Ghana,1,0
 2026-03-28,Korea Republic,Ivory Coast,0,4
 2026-03-31,Korea Republic,Austria,0,1
 2026-05-30,Korea Republic,Trinidad and Tobago,5,0
 2026-06-03,Korea Republic,El Salvador,1,0
-2026-06-11,Korea Republic,Czech Republic,2,1
 2026-03-28,Mexico,Portugal,0,0
 2026-03-31,Mexico,Belgium,1,1
 2026-05-22,Mexico,Ghana,2,0
@@ -149,11 +149,11 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-31,Netherlands,Ecuador,1,1
 2026-06-03,Netherlands,Algeria,0,1
 2026-06-08,Netherlands,Uzbekistan,2,1
+2025-11-18,New Zealand,Ecuador,0,2
 2026-03-27,New Zealand,Finland,0,2
 2026-03-30,New Zealand,Chile,4,1
 2026-06-02,New Zealand,Haiti,0,4
 2026-06-06,New Zealand,England,0,1
-2026-06-15,New Zealand,Iran,2,2
 2025-11-16,Norway,Italy,4,1
 2026-03-27,Norway,Netherlands,1,2
 2026-03-31,Norway,Switzerland,0,0
@@ -164,11 +164,11 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-05-31,Panama,Brazil,2,6
 2026-06-03,Panama,Dominican Republic,4,2
 2026-06-06,Panama,Bosnia and Herzegovina,1,1
+2025-11-15,Paraguay,United States,1,2
 2025-11-18,Paraguay,Mexico,2,1
 2026-03-27,Paraguay,Greece,1,0
 2026-03-31,Paraguay,Morocco,1,2
 2026-06-05,Paraguay,Nicaragua,4,0
-2026-06-12,Paraguay,United States,1,4
 2025-11-16,Portugal,Armenia,9,1
 2026-03-28,Portugal,Mexico,0,0
 2026-03-31,Portugal,United States,2,0
@@ -184,11 +184,11 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-05-30,Saudi Arabia,Ecuador,1,2
 2026-06-05,Saudi Arabia,Puerto Rico,3,0
 2026-06-09,Saudi Arabia,Senegal,0,0
+2025-11-18,Scotland,Denmark,4,2
 2026-03-28,Scotland,Japan,0,1
 2026-03-31,Scotland,Ivory Coast,0,1
 2026-05-30,Scotland,Curaçao,4,1
 2026-06-06,Scotland,Bolivia,4,0
-2026-06-13,Scotland,Haiti,1,0
 2026-01-18,Senegal,Morocco,0,3
 2026-03-28,Senegal,Peru,2,0
 2026-03-31,Senegal,Gambia,3,1
@@ -204,38 +204,38 @@ match_date,team,opponent,goals_scored,goals_conceded
 2026-03-31,Spain,Egypt,0,0
 2026-06-04,Spain,Iraq,1,1
 2026-06-08,Spain,Peru,3,1
+2025-11-18,Sweden,Slovenia,1,1
 2026-03-26,Sweden,Ukraine,3,1
 2026-03-31,Sweden,Poland,3,2
 2026-06-01,Sweden,Norway,1,3
 2026-06-04,Sweden,Greece,2,2
-2026-06-14,Sweden,Tunisia,5,1
 2025-11-18,Switzerland,Kosovo,1,1
 2026-03-27,Switzerland,Germany,3,4
 2026-03-31,Switzerland,Norway,0,0
 2026-05-31,Switzerland,Jordan,4,1
 2026-06-06,Switzerland,Australia,1,1
+2026-01-03,Tunisia,Mali,1,1
 2026-03-28,Tunisia,Haiti,1,0
 2026-03-31,Tunisia,Canada,0,0
 2026-06-01,Tunisia,Austria,0,1
 2026-06-06,Tunisia,Belgium,0,5
-2026-06-14,Tunisia,Sweden,1,5
+2025-11-18,Türkiye,Spain,2,2
 2026-03-26,Türkiye,Romania,1,0
 2026-03-31,Türkiye,Kosovo,1,0
 2026-06-01,Türkiye,North Macedonia,4,0
 2026-06-06,Türkiye,Venezuela,2,1
-2026-06-13,Türkiye,Australia,0,2
+2025-11-18,USA,Uruguay,5,1
 2026-03-28,USA,Belgium,2,5
 2026-03-31,USA,Portugal,0,2
 2026-05-31,USA,Senegal,3,2
 2026-06-06,USA,Germany,1,2
-2026-06-12,USA,Paraguay,4,1
 2025-10-13,Uruguay,Uzbekistan,2,1
 2025-11-15,Uruguay,Mexico,0,0
 2025-11-18,Uruguay,United States,1,5
 2026-03-27,Uruguay,England,1,1
 2026-03-31,Uruguay,Algeria,0,0
+2026-01-26,Uzbekistan,China,2,2
 2026-03-27,Uzbekistan,Gabon,3,1
 2026-03-30,Uzbekistan,Venezuela,0,0
 2026-06-01,Uzbekistan,Canada,0,2
 2026-06-08,Uzbekistan,Netherlands,1,2
-2026-06-17,Uzbekistan,Colombia,1,3
