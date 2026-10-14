@@ -199,13 +199,12 @@ def diagnostics(df,Xtr,ytr,out):
             'train_residual_skew':float(stats.skew(res)),
             'train_residual_shapiro_p_exploratory':float(stats.shapiro(res).pvalue)}
     pd.DataFrame([report]).to_csv(out/'regression_2_1_diagnostic_tests.csv',index=False)
-   ranking = pd.DataFrame({
-'match_id': Xtr.index.to_numpy(),
-'fitted_goal_difference': pred,
-'residual': res,
-'cooks_distance': cooks
-})
-      
+    ranking = pd.DataFrame({
+        'match_id': Xtr.index.to_numpy(),
+        'fitted_goal_difference': pred,
+        'residual': res,
+        'cooks_distance': cooks
+    })
     ranking.sort_values('cooks_distance',ascending=False).to_csv(out/'regression_2_1_influence.csv',index=False)
     fig,ax=plt.subplots(figsize=(6.5,4.6));ax.scatter(pred,res,s=22);ax.axhline(0,ls='--');
     ax.set(xlabel='OLS fitted',ylabel='Actual - fitted',title='80/20 train: residuals vs fitted')
