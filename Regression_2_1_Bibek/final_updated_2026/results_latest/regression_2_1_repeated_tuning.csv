@@ -1,0 +1,2401 @@
+model,split,repeat_id,selected_params,inner_cv_rmse_goals
+Mean baseline,70/30,1,not tuned,
+Multiple linear regression,70/30,1,not tuned,
+Ridge regression (tuned),70/30,1,"{""ridge__alpha"": 10.0}",1.4601174687883787
+Lasso regression (tuned),70/30,1,"{""lasso__alpha"": 0.1}",1.4538334892779805
+Random forest (tuned),70/30,1,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4162048917568473
+Gradient boosting (tuned),70/30,1,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4528977265584162
+Mean baseline,70/30,2,not tuned,
+Multiple linear regression,70/30,2,not tuned,
+Ridge regression (tuned),70/30,2,"{""ridge__alpha"": 10.0}",1.6317276050944234
+Lasso regression (tuned),70/30,2,"{""lasso__alpha"": 0.1}",1.529424315078937
+Random forest (tuned),70/30,2,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6718396360675343
+Gradient boosting (tuned),70/30,2,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6431373102315263
+Mean baseline,70/30,3,not tuned,
+Multiple linear regression,70/30,3,not tuned,
+Ridge regression (tuned),70/30,3,"{""ridge__alpha"": 10.0}",1.6335004095607264
+Lasso regression (tuned),70/30,3,"{""lasso__alpha"": 0.1}",1.599327518581037
+Random forest (tuned),70/30,3,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6503975453154154
+Gradient boosting (tuned),70/30,3,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5703571196025254
+Mean baseline,70/30,4,not tuned,
+Multiple linear regression,70/30,4,not tuned,
+Ridge regression (tuned),70/30,4,"{""ridge__alpha"": 10.0}",1.785207751183106
+Lasso regression (tuned),70/30,4,"{""lasso__alpha"": 0.1}",1.700643661579954
+Random forest (tuned),70/30,4,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7037769707936021
+Gradient boosting (tuned),70/30,4,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6341897153115916
+Mean baseline,70/30,5,not tuned,
+Multiple linear regression,70/30,5,not tuned,
+Ridge regression (tuned),70/30,5,"{""ridge__alpha"": 10.0}",1.6221705839618707
+Lasso regression (tuned),70/30,5,"{""lasso__alpha"": 0.1}",1.6087193344005648
+Random forest (tuned),70/30,5,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6256561490799182
+Gradient boosting (tuned),70/30,5,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6096246367523335
+Mean baseline,70/30,6,not tuned,
+Multiple linear regression,70/30,6,not tuned,
+Ridge regression (tuned),70/30,6,"{""ridge__alpha"": 10.0}",1.7023917601742653
+Lasso regression (tuned),70/30,6,"{""lasso__alpha"": 0.1}",1.6640330525056768
+Random forest (tuned),70/30,6,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.829329678863082
+Gradient boosting (tuned),70/30,6,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8028077871292911
+Mean baseline,70/30,7,not tuned,
+Multiple linear regression,70/30,7,not tuned,
+Ridge regression (tuned),70/30,7,"{""ridge__alpha"": 10.0}",1.7163433101172891
+Lasso regression (tuned),70/30,7,"{""lasso__alpha"": 0.1}",1.6559456664976324
+Random forest (tuned),70/30,7,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6631740238594594
+Gradient boosting (tuned),70/30,7,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6641059897079482
+Mean baseline,70/30,8,not tuned,
+Multiple linear regression,70/30,8,not tuned,
+Ridge regression (tuned),70/30,8,"{""ridge__alpha"": 10.0}",1.9291542637108847
+Lasso regression (tuned),70/30,8,"{""lasso__alpha"": 0.1}",1.8495636046671453
+Random forest (tuned),70/30,8,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.875509687034982
+Gradient boosting (tuned),70/30,8,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8637097507678242
+Mean baseline,70/30,9,not tuned,
+Multiple linear regression,70/30,9,not tuned,
+Ridge regression (tuned),70/30,9,"{""ridge__alpha"": 1.0}",1.556463256265416
+Lasso regression (tuned),70/30,9,"{""lasso__alpha"": 0.1}",1.5173120879735147
+Random forest (tuned),70/30,9,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5430769969558997
+Gradient boosting (tuned),70/30,9,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5286243872853411
+Mean baseline,70/30,10,not tuned,
+Multiple linear regression,70/30,10,not tuned,
+Ridge regression (tuned),70/30,10,"{""ridge__alpha"": 10.0}",1.635854268765333
+Lasso regression (tuned),70/30,10,"{""lasso__alpha"": 0.1}",1.5809971576283843
+Random forest (tuned),70/30,10,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6814964894617137
+Gradient boosting (tuned),70/30,10,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6726354675288964
+Mean baseline,70/30,11,not tuned,
+Multiple linear regression,70/30,11,not tuned,
+Ridge regression (tuned),70/30,11,"{""ridge__alpha"": 10.0}",1.660969396915656
+Lasso regression (tuned),70/30,11,"{""lasso__alpha"": 0.1}",1.6412818726703822
+Random forest (tuned),70/30,11,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.662533593416703
+Gradient boosting (tuned),70/30,11,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6226639283017588
+Mean baseline,70/30,12,not tuned,
+Multiple linear regression,70/30,12,not tuned,
+Ridge regression (tuned),70/30,12,"{""ridge__alpha"": 10.0}",1.7607052293905596
+Lasso regression (tuned),70/30,12,"{""lasso__alpha"": 0.1}",1.7496595528642707
+Random forest (tuned),70/30,12,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6932334408226979
+Gradient boosting (tuned),70/30,12,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6786762713242074
+Mean baseline,70/30,13,not tuned,
+Multiple linear regression,70/30,13,not tuned,
+Ridge regression (tuned),70/30,13,"{""ridge__alpha"": 10.0}",1.6043949005138765
+Lasso regression (tuned),70/30,13,"{""lasso__alpha"": 0.1}",1.5904047896767544
+Random forest (tuned),70/30,13,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5253891304239773
+Gradient boosting (tuned),70/30,13,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5831707256696093
+Mean baseline,70/30,14,not tuned,
+Multiple linear regression,70/30,14,not tuned,
+Ridge regression (tuned),70/30,14,"{""ridge__alpha"": 10.0}",1.7718530044142384
+Lasso regression (tuned),70/30,14,"{""lasso__alpha"": 0.1}",1.7410220268243612
+Random forest (tuned),70/30,14,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.637257849303762
+Gradient boosting (tuned),70/30,14,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5910937388637332
+Mean baseline,70/30,15,not tuned,
+Multiple linear regression,70/30,15,not tuned,
+Ridge regression (tuned),70/30,15,"{""ridge__alpha"": 10.0}",1.6334840251375287
+Lasso regression (tuned),70/30,15,"{""lasso__alpha"": 0.1}",1.5776793820299204
+Random forest (tuned),70/30,15,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5873143635379017
+Gradient boosting (tuned),70/30,15,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.5786977956713493
+Mean baseline,70/30,16,not tuned,
+Multiple linear regression,70/30,16,not tuned,
+Ridge regression (tuned),70/30,16,"{""ridge__alpha"": 10.0}",1.449839618408867
+Lasso regression (tuned),70/30,16,"{""lasso__alpha"": 0.1}",1.427592957286834
+Random forest (tuned),70/30,16,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.3552887507834237
+Gradient boosting (tuned),70/30,16,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.3785082034558886
+Mean baseline,70/30,17,not tuned,
+Multiple linear regression,70/30,17,not tuned,
+Ridge regression (tuned),70/30,17,"{""ridge__alpha"": 10.0}",1.7507532525976566
+Lasso regression (tuned),70/30,17,"{""lasso__alpha"": 0.1}",1.6852625190356965
+Random forest (tuned),70/30,17,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6252673461571
+Gradient boosting (tuned),70/30,17,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6098826596428633
+Mean baseline,70/30,18,not tuned,
+Multiple linear regression,70/30,18,not tuned,
+Ridge regression (tuned),70/30,18,"{""ridge__alpha"": 10.0}",1.4885306249508605
+Lasso regression (tuned),70/30,18,"{""lasso__alpha"": 0.1}",1.438722922396781
+Random forest (tuned),70/30,18,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5383868374736778
+Gradient boosting (tuned),70/30,18,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.5471996687317648
+Mean baseline,70/30,19,not tuned,
+Multiple linear regression,70/30,19,not tuned,
+Ridge regression (tuned),70/30,19,"{""ridge__alpha"": 10.0}",1.6755948563863203
+Lasso regression (tuned),70/30,19,"{""lasso__alpha"": 0.1}",1.6425051526943313
+Random forest (tuned),70/30,19,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7561535605501561
+Gradient boosting (tuned),70/30,19,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7563789640952343
+Mean baseline,70/30,20,not tuned,
+Multiple linear regression,70/30,20,not tuned,
+Ridge regression (tuned),70/30,20,"{""ridge__alpha"": 10.0}",1.7155927346386577
+Lasso regression (tuned),70/30,20,"{""lasso__alpha"": 0.1}",1.642639966894403
+Random forest (tuned),70/30,20,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.693700868953244
+Gradient boosting (tuned),70/30,20,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6259364334614426
+Mean baseline,70/30,21,not tuned,
+Multiple linear regression,70/30,21,not tuned,
+Ridge regression (tuned),70/30,21,"{""ridge__alpha"": 10.0}",1.7508585084583934
+Lasso regression (tuned),70/30,21,"{""lasso__alpha"": 0.1}",1.7344572767941062
+Random forest (tuned),70/30,21,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.8179044194831675
+Gradient boosting (tuned),70/30,21,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8717925610697193
+Mean baseline,70/30,22,not tuned,
+Multiple linear regression,70/30,22,not tuned,
+Ridge regression (tuned),70/30,22,"{""ridge__alpha"": 10.0}",1.73717643121654
+Lasso regression (tuned),70/30,22,"{""lasso__alpha"": 0.1}",1.7170023537696337
+Random forest (tuned),70/30,22,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.744450809459969
+Gradient boosting (tuned),70/30,22,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6927388856848133
+Mean baseline,70/30,23,not tuned,
+Multiple linear regression,70/30,23,not tuned,
+Ridge regression (tuned),70/30,23,"{""ridge__alpha"": 10.0}",1.7878266549983461
+Lasso regression (tuned),70/30,23,"{""lasso__alpha"": 0.1}",1.7203045777246402
+Random forest (tuned),70/30,23,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7063441316539696
+Gradient boosting (tuned),70/30,23,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7327487620652988
+Mean baseline,70/30,24,not tuned,
+Multiple linear regression,70/30,24,not tuned,
+Ridge regression (tuned),70/30,24,"{""ridge__alpha"": 100.0}",1.7372403991679548
+Lasso regression (tuned),70/30,24,"{""lasso__alpha"": 0.1}",1.678093272589458
+Random forest (tuned),70/30,24,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6883848670077708
+Gradient boosting (tuned),70/30,24,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6687002560478128
+Mean baseline,70/30,25,not tuned,
+Multiple linear regression,70/30,25,not tuned,
+Ridge regression (tuned),70/30,25,"{""ridge__alpha"": 10.0}",1.5820936217810002
+Lasso regression (tuned),70/30,25,"{""lasso__alpha"": 0.1}",1.5561516205373107
+Random forest (tuned),70/30,25,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.635312005972634
+Gradient boosting (tuned),70/30,25,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6155432723890968
+Mean baseline,70/30,26,not tuned,
+Multiple linear regression,70/30,26,not tuned,
+Ridge regression (tuned),70/30,26,"{""ridge__alpha"": 10.0}",1.6077627853039538
+Lasso regression (tuned),70/30,26,"{""lasso__alpha"": 0.1}",1.5645120430894255
+Random forest (tuned),70/30,26,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6186399183487616
+Gradient boosting (tuned),70/30,26,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6317806842586116
+Mean baseline,70/30,27,not tuned,
+Multiple linear regression,70/30,27,not tuned,
+Ridge regression (tuned),70/30,27,"{""ridge__alpha"": 10.0}",1.7099171865585916
+Lasso regression (tuned),70/30,27,"{""lasso__alpha"": 0.1}",1.6790018641423945
+Random forest (tuned),70/30,27,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6512213671059741
+Gradient boosting (tuned),70/30,27,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6270203990561183
+Mean baseline,70/30,28,not tuned,
+Multiple linear regression,70/30,28,not tuned,
+Ridge regression (tuned),70/30,28,"{""ridge__alpha"": 10.0}",1.5436330163362837
+Lasso regression (tuned),70/30,28,"{""lasso__alpha"": 0.1}",1.5067306434959349
+Random forest (tuned),70/30,28,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6021827617808078
+Gradient boosting (tuned),70/30,28,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6252144834715658
+Mean baseline,70/30,29,not tuned,
+Multiple linear regression,70/30,29,not tuned,
+Ridge regression (tuned),70/30,29,"{""ridge__alpha"": 10.0}",1.5609505536621568
+Lasso regression (tuned),70/30,29,"{""lasso__alpha"": 0.1}",1.558607312304601
+Random forest (tuned),70/30,29,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5643077272850603
+Gradient boosting (tuned),70/30,29,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5247487330781635
+Mean baseline,70/30,30,not tuned,
+Multiple linear regression,70/30,30,not tuned,
+Ridge regression (tuned),70/30,30,"{""ridge__alpha"": 10.0}",1.6791367501332974
+Lasso regression (tuned),70/30,30,"{""lasso__alpha"": 0.1}",1.674434557563409
+Random forest (tuned),70/30,30,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6917586740006079
+Gradient boosting (tuned),70/30,30,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7299570510424225
+Mean baseline,70/30,31,not tuned,
+Multiple linear regression,70/30,31,not tuned,
+Ridge regression (tuned),70/30,31,"{""ridge__alpha"": 10.0}",1.8988347433966677
+Lasso regression (tuned),70/30,31,"{""lasso__alpha"": 0.1}",1.8251207930470499
+Random forest (tuned),70/30,31,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.8004232730913987
+Gradient boosting (tuned),70/30,31,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8002204645509643
+Mean baseline,70/30,32,not tuned,
+Multiple linear regression,70/30,32,not tuned,
+Ridge regression (tuned),70/30,32,"{""ridge__alpha"": 10.0}",1.7239530207519618
+Lasso regression (tuned),70/30,32,"{""lasso__alpha"": 0.1}",1.6272441641509112
+Random forest (tuned),70/30,32,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7188331948370696
+Gradient boosting (tuned),70/30,32,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.74215983131301
+Mean baseline,70/30,33,not tuned,
+Multiple linear regression,70/30,33,not tuned,
+Ridge regression (tuned),70/30,33,"{""ridge__alpha"": 10.0}",1.570700506098903
+Lasso regression (tuned),70/30,33,"{""lasso__alpha"": 0.1}",1.4701501950761693
+Random forest (tuned),70/30,33,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5416302645751006
+Gradient boosting (tuned),70/30,33,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5811051757551604
+Mean baseline,70/30,34,not tuned,
+Multiple linear regression,70/30,34,not tuned,
+Ridge regression (tuned),70/30,34,"{""ridge__alpha"": 10.0}",1.7674764459455656
+Lasso regression (tuned),70/30,34,"{""lasso__alpha"": 0.1}",1.7359684107086228
+Random forest (tuned),70/30,34,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.686403473084407
+Gradient boosting (tuned),70/30,34,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7720647189532677
+Mean baseline,70/30,35,not tuned,
+Multiple linear regression,70/30,35,not tuned,
+Ridge regression (tuned),70/30,35,"{""ridge__alpha"": 10.0}",1.7385176789081374
+Lasso regression (tuned),70/30,35,"{""lasso__alpha"": 0.1}",1.7120927857721884
+Random forest (tuned),70/30,35,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.791924744556195
+Gradient boosting (tuned),70/30,35,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.790978194534656
+Mean baseline,70/30,36,not tuned,
+Multiple linear regression,70/30,36,not tuned,
+Ridge regression (tuned),70/30,36,"{""ridge__alpha"": 10.0}",1.8474300540777115
+Lasso regression (tuned),70/30,36,"{""lasso__alpha"": 0.1}",1.720123106039729
+Random forest (tuned),70/30,36,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7181588149249305
+Gradient boosting (tuned),70/30,36,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6621155377321215
+Mean baseline,70/30,37,not tuned,
+Multiple linear regression,70/30,37,not tuned,
+Ridge regression (tuned),70/30,37,"{""ridge__alpha"": 1.0}",1.8190055517774966
+Lasso regression (tuned),70/30,37,"{""lasso__alpha"": 0.1}",1.7522676202284635
+Random forest (tuned),70/30,37,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.728782057826646
+Gradient boosting (tuned),70/30,37,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8135141922244595
+Mean baseline,70/30,38,not tuned,
+Multiple linear regression,70/30,38,not tuned,
+Ridge regression (tuned),70/30,38,"{""ridge__alpha"": 10.0}",1.614555290273263
+Lasso regression (tuned),70/30,38,"{""lasso__alpha"": 0.1}",1.568953171416363
+Random forest (tuned),70/30,38,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4732229382338853
+Gradient boosting (tuned),70/30,38,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.470243901623649
+Mean baseline,70/30,39,not tuned,
+Multiple linear regression,70/30,39,not tuned,
+Ridge regression (tuned),70/30,39,"{""ridge__alpha"": 10.0}",1.6406341483384748
+Lasso regression (tuned),70/30,39,"{""lasso__alpha"": 0.1}",1.5683753281845498
+Random forest (tuned),70/30,39,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6472308867473031
+Gradient boosting (tuned),70/30,39,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6415920157452795
+Mean baseline,70/30,40,not tuned,
+Multiple linear regression,70/30,40,not tuned,
+Ridge regression (tuned),70/30,40,"{""ridge__alpha"": 10.0}",1.5480512956674786
+Lasso regression (tuned),70/30,40,"{""lasso__alpha"": 0.1}",1.5288613636348798
+Random forest (tuned),70/30,40,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4636684018586343
+Gradient boosting (tuned),70/30,40,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5399956295873714
+Mean baseline,70/30,41,not tuned,
+Multiple linear regression,70/30,41,not tuned,
+Ridge regression (tuned),70/30,41,"{""ridge__alpha"": 10.0}",1.6256377619097475
+Lasso regression (tuned),70/30,41,"{""lasso__alpha"": 0.1}",1.5925788529367109
+Random forest (tuned),70/30,41,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5485802880287514
+Gradient boosting (tuned),70/30,41,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5871176055046765
+Mean baseline,70/30,42,not tuned,
+Multiple linear regression,70/30,42,not tuned,
+Ridge regression (tuned),70/30,42,"{""ridge__alpha"": 10.0}",1.4597630306323133
+Lasso regression (tuned),70/30,42,"{""lasso__alpha"": 0.1}",1.465959071703735
+Random forest (tuned),70/30,42,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5362259049594815
+Gradient boosting (tuned),70/30,42,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.544627368925276
+Mean baseline,70/30,43,not tuned,
+Multiple linear regression,70/30,43,not tuned,
+Ridge regression (tuned),70/30,43,"{""ridge__alpha"": 10.0}",1.5484109129121135
+Lasso regression (tuned),70/30,43,"{""lasso__alpha"": 0.1}",1.5406460053341964
+Random forest (tuned),70/30,43,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5285705139575851
+Gradient boosting (tuned),70/30,43,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.597943972980818
+Mean baseline,70/30,44,not tuned,
+Multiple linear regression,70/30,44,not tuned,
+Ridge regression (tuned),70/30,44,"{""ridge__alpha"": 1.0}",1.713106021879351
+Lasso regression (tuned),70/30,44,"{""lasso__alpha"": 0.1}",1.6814398941036142
+Random forest (tuned),70/30,44,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7869481426468703
+Gradient boosting (tuned),70/30,44,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7413195021764696
+Mean baseline,70/30,45,not tuned,
+Multiple linear regression,70/30,45,not tuned,
+Ridge regression (tuned),70/30,45,"{""ridge__alpha"": 10.0}",1.5891817246981321
+Lasso regression (tuned),70/30,45,"{""lasso__alpha"": 0.1}",1.5572404764114673
+Random forest (tuned),70/30,45,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5792636368232116
+Gradient boosting (tuned),70/30,45,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5721783138631813
+Mean baseline,70/30,46,not tuned,
+Multiple linear regression,70/30,46,not tuned,
+Ridge regression (tuned),70/30,46,"{""ridge__alpha"": 10.0}",1.5237051137508728
+Lasso regression (tuned),70/30,46,"{""lasso__alpha"": 0.01}",1.5442942121478829
+Random forest (tuned),70/30,46,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5918160389547833
+Gradient boosting (tuned),70/30,46,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5669065800098436
+Mean baseline,70/30,47,not tuned,
+Multiple linear regression,70/30,47,not tuned,
+Ridge regression (tuned),70/30,47,"{""ridge__alpha"": 10.0}",1.4601867632170866
+Lasso regression (tuned),70/30,47,"{""lasso__alpha"": 0.1}",1.4153516956011727
+Random forest (tuned),70/30,47,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5076206591493115
+Gradient boosting (tuned),70/30,47,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4587690613404725
+Mean baseline,70/30,48,not tuned,
+Multiple linear regression,70/30,48,not tuned,
+Ridge regression (tuned),70/30,48,"{""ridge__alpha"": 10.0}",1.5331528996157304
+Lasso regression (tuned),70/30,48,"{""lasso__alpha"": 0.1}",1.5286004082093798
+Random forest (tuned),70/30,48,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5939177367562594
+Gradient boosting (tuned),70/30,48,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5790913914696891
+Mean baseline,70/30,49,not tuned,
+Multiple linear regression,70/30,49,not tuned,
+Ridge regression (tuned),70/30,49,"{""ridge__alpha"": 10.0}",1.638562506604351
+Lasso regression (tuned),70/30,49,"{""lasso__alpha"": 0.1}",1.6228800484253854
+Random forest (tuned),70/30,49,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.587721348543252
+Gradient boosting (tuned),70/30,49,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.60190758270783
+Mean baseline,70/30,50,not tuned,
+Multiple linear regression,70/30,50,not tuned,
+Ridge regression (tuned),70/30,50,"{""ridge__alpha"": 10.0}",1.6170057904163557
+Lasso regression (tuned),70/30,50,"{""lasso__alpha"": 0.1}",1.5663424507253194
+Random forest (tuned),70/30,50,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6172307225103846
+Gradient boosting (tuned),70/30,50,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6260092120402216
+Mean baseline,70/30,51,not tuned,
+Multiple linear regression,70/30,51,not tuned,
+Ridge regression (tuned),70/30,51,"{""ridge__alpha"": 10.0}",1.8223942504853852
+Lasso regression (tuned),70/30,51,"{""lasso__alpha"": 0.1}",1.7985715264216058
+Random forest (tuned),70/30,51,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7306080538717343
+Gradient boosting (tuned),70/30,51,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.764512017343888
+Mean baseline,70/30,52,not tuned,
+Multiple linear regression,70/30,52,not tuned,
+Ridge regression (tuned),70/30,52,"{""ridge__alpha"": 10.0}",1.6191170784642144
+Lasso regression (tuned),70/30,52,"{""lasso__alpha"": 0.1}",1.607556325611749
+Random forest (tuned),70/30,52,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.66379168221696
+Gradient boosting (tuned),70/30,52,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6964681309952012
+Mean baseline,70/30,53,not tuned,
+Multiple linear regression,70/30,53,not tuned,
+Ridge regression (tuned),70/30,53,"{""ridge__alpha"": 10.0}",1.4298087172536957
+Lasso regression (tuned),70/30,53,"{""lasso__alpha"": 0.1}",1.3788986689115745
+Random forest (tuned),70/30,53,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4506844065345792
+Gradient boosting (tuned),70/30,53,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.42634074573841
+Mean baseline,70/30,54,not tuned,
+Multiple linear regression,70/30,54,not tuned,
+Ridge regression (tuned),70/30,54,"{""ridge__alpha"": 10.0}",1.7528686867460337
+Lasso regression (tuned),70/30,54,"{""lasso__alpha"": 0.1}",1.6297900325269346
+Random forest (tuned),70/30,54,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6568592198609526
+Gradient boosting (tuned),70/30,54,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6774793954097322
+Mean baseline,70/30,55,not tuned,
+Multiple linear regression,70/30,55,not tuned,
+Ridge regression (tuned),70/30,55,"{""ridge__alpha"": 10.0}",1.6944532855521026
+Lasso regression (tuned),70/30,55,"{""lasso__alpha"": 0.1}",1.6099064194475308
+Random forest (tuned),70/30,55,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7295617765300784
+Gradient boosting (tuned),70/30,55,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.729401898350681
+Mean baseline,70/30,56,not tuned,
+Multiple linear regression,70/30,56,not tuned,
+Ridge regression (tuned),70/30,56,"{""ridge__alpha"": 10.0}",1.6204283338918717
+Lasso regression (tuned),70/30,56,"{""lasso__alpha"": 0.1}",1.6042936965132775
+Random forest (tuned),70/30,56,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7057887379319248
+Gradient boosting (tuned),70/30,56,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7550713962649698
+Mean baseline,70/30,57,not tuned,
+Multiple linear regression,70/30,57,not tuned,
+Ridge regression (tuned),70/30,57,"{""ridge__alpha"": 10.0}",1.770108835390095
+Lasso regression (tuned),70/30,57,"{""lasso__alpha"": 0.1}",1.7232205779889327
+Random forest (tuned),70/30,57,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6648034261767368
+Gradient boosting (tuned),70/30,57,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6778909988540103
+Mean baseline,70/30,58,not tuned,
+Multiple linear regression,70/30,58,not tuned,
+Ridge regression (tuned),70/30,58,"{""ridge__alpha"": 10.0}",1.5833945547481487
+Lasso regression (tuned),70/30,58,"{""lasso__alpha"": 0.1}",1.534665601839239
+Random forest (tuned),70/30,58,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5766222567732981
+Gradient boosting (tuned),70/30,58,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5663190644753917
+Mean baseline,70/30,59,not tuned,
+Multiple linear regression,70/30,59,not tuned,
+Ridge regression (tuned),70/30,59,"{""ridge__alpha"": 10.0}",1.4911343785918456
+Lasso regression (tuned),70/30,59,"{""lasso__alpha"": 0.1}",1.5086070228739268
+Random forest (tuned),70/30,59,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4936234693814687
+Gradient boosting (tuned),70/30,59,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5130076340400511
+Mean baseline,70/30,60,not tuned,
+Multiple linear regression,70/30,60,not tuned,
+Ridge regression (tuned),70/30,60,"{""ridge__alpha"": 100.0}",1.7708599922171746
+Lasso regression (tuned),70/30,60,"{""lasso__alpha"": 0.1}",1.7557710932501376
+Random forest (tuned),70/30,60,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6888682143980378
+Gradient boosting (tuned),70/30,60,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7275239135958507
+Mean baseline,70/30,61,not tuned,
+Multiple linear regression,70/30,61,not tuned,
+Ridge regression (tuned),70/30,61,"{""ridge__alpha"": 10.0}",1.396044656184713
+Lasso regression (tuned),70/30,61,"{""lasso__alpha"": 0.1}",1.3945290005919697
+Random forest (tuned),70/30,61,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4054697245001906
+Gradient boosting (tuned),70/30,61,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4240617681814938
+Mean baseline,70/30,62,not tuned,
+Multiple linear regression,70/30,62,not tuned,
+Ridge regression (tuned),70/30,62,"{""ridge__alpha"": 10.0}",1.7228611431172354
+Lasso regression (tuned),70/30,62,"{""lasso__alpha"": 0.1}",1.642565059746056
+Random forest (tuned),70/30,62,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6415778932068494
+Gradient boosting (tuned),70/30,62,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6528503860711141
+Mean baseline,70/30,63,not tuned,
+Multiple linear regression,70/30,63,not tuned,
+Ridge regression (tuned),70/30,63,"{""ridge__alpha"": 10.0}",1.727075363141741
+Lasso regression (tuned),70/30,63,"{""lasso__alpha"": 0.1}",1.647216812901825
+Random forest (tuned),70/30,63,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7542234810788961
+Gradient boosting (tuned),70/30,63,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8185162516446176
+Mean baseline,70/30,64,not tuned,
+Multiple linear regression,70/30,64,not tuned,
+Ridge regression (tuned),70/30,64,"{""ridge__alpha"": 10.0}",1.5051418404412638
+Lasso regression (tuned),70/30,64,"{""lasso__alpha"": 0.01}",1.5075332460577617
+Random forest (tuned),70/30,64,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5408171083703461
+Gradient boosting (tuned),70/30,64,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5406289914135478
+Mean baseline,70/30,65,not tuned,
+Multiple linear regression,70/30,65,not tuned,
+Ridge regression (tuned),70/30,65,"{""ridge__alpha"": 10.0}",1.8452164634808963
+Lasso regression (tuned),70/30,65,"{""lasso__alpha"": 0.1}",1.7972890788745182
+Random forest (tuned),70/30,65,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6895998352773685
+Gradient boosting (tuned),70/30,65,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6791462394370722
+Mean baseline,70/30,66,not tuned,
+Multiple linear regression,70/30,66,not tuned,
+Ridge regression (tuned),70/30,66,"{""ridge__alpha"": 10.0}",1.6152774059010895
+Lasso regression (tuned),70/30,66,"{""lasso__alpha"": 0.1}",1.5670483116808063
+Random forest (tuned),70/30,66,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4084179371295513
+Gradient boosting (tuned),70/30,66,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.466809247756551
+Mean baseline,70/30,67,not tuned,
+Multiple linear regression,70/30,67,not tuned,
+Ridge regression (tuned),70/30,67,"{""ridge__alpha"": 10.0}",1.7061654672066866
+Lasso regression (tuned),70/30,67,"{""lasso__alpha"": 0.1}",1.681821128893933
+Random forest (tuned),70/30,67,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6813250279691723
+Gradient boosting (tuned),70/30,67,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7163965446702043
+Mean baseline,70/30,68,not tuned,
+Multiple linear regression,70/30,68,not tuned,
+Ridge regression (tuned),70/30,68,"{""ridge__alpha"": 10.0}",1.5916619230237465
+Lasso regression (tuned),70/30,68,"{""lasso__alpha"": 0.1}",1.5466050844032082
+Random forest (tuned),70/30,68,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6194542770187368
+Gradient boosting (tuned),70/30,68,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6437974883642519
+Mean baseline,70/30,69,not tuned,
+Multiple linear regression,70/30,69,not tuned,
+Ridge regression (tuned),70/30,69,"{""ridge__alpha"": 10.0}",1.7168348681165653
+Lasso regression (tuned),70/30,69,"{""lasso__alpha"": 0.1}",1.7008368253737878
+Random forest (tuned),70/30,69,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6707047472024352
+Gradient boosting (tuned),70/30,69,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6189179647360692
+Mean baseline,70/30,70,not tuned,
+Multiple linear regression,70/30,70,not tuned,
+Ridge regression (tuned),70/30,70,"{""ridge__alpha"": 10.0}",1.5901123732449698
+Lasso regression (tuned),70/30,70,"{""lasso__alpha"": 0.1}",1.5132676346380731
+Random forest (tuned),70/30,70,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5046975788885504
+Gradient boosting (tuned),70/30,70,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.510709207449151
+Mean baseline,70/30,71,not tuned,
+Multiple linear regression,70/30,71,not tuned,
+Ridge regression (tuned),70/30,71,"{""ridge__alpha"": 10.0}",1.7547124812475228
+Lasso regression (tuned),70/30,71,"{""lasso__alpha"": 0.1}",1.716548060274489
+Random forest (tuned),70/30,71,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7321095966370106
+Gradient boosting (tuned),70/30,71,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7768140379462984
+Mean baseline,70/30,72,not tuned,
+Multiple linear regression,70/30,72,not tuned,
+Ridge regression (tuned),70/30,72,"{""ridge__alpha"": 10.0}",1.617476122931358
+Lasso regression (tuned),70/30,72,"{""lasso__alpha"": 0.1}",1.55505256909133
+Random forest (tuned),70/30,72,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5689536808307125
+Gradient boosting (tuned),70/30,72,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6076208407475658
+Mean baseline,70/30,73,not tuned,
+Multiple linear regression,70/30,73,not tuned,
+Ridge regression (tuned),70/30,73,"{""ridge__alpha"": 10.0}",1.5106841289141122
+Lasso regression (tuned),70/30,73,"{""lasso__alpha"": 0.1}",1.4520354837529221
+Random forest (tuned),70/30,73,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.430629364617436
+Gradient boosting (tuned),70/30,73,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.482481231419228
+Mean baseline,70/30,74,not tuned,
+Multiple linear regression,70/30,74,not tuned,
+Ridge regression (tuned),70/30,74,"{""ridge__alpha"": 1.0}",1.466355679083922
+Lasso regression (tuned),70/30,74,"{""lasso__alpha"": 0.1}",1.4315132838580686
+Random forest (tuned),70/30,74,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4592042702250816
+Gradient boosting (tuned),70/30,74,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4735638495965717
+Mean baseline,70/30,75,not tuned,
+Multiple linear regression,70/30,75,not tuned,
+Ridge regression (tuned),70/30,75,"{""ridge__alpha"": 10.0}",1.7477688094488066
+Lasso regression (tuned),70/30,75,"{""lasso__alpha"": 0.1}",1.6972001415846727
+Random forest (tuned),70/30,75,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7045612822617504
+Gradient boosting (tuned),70/30,75,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7131285575855781
+Mean baseline,70/30,76,not tuned,
+Multiple linear regression,70/30,76,not tuned,
+Ridge regression (tuned),70/30,76,"{""ridge__alpha"": 10.0}",1.699407308042677
+Lasso regression (tuned),70/30,76,"{""lasso__alpha"": 0.1}",1.6591448498840482
+Random forest (tuned),70/30,76,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7132925272292465
+Gradient boosting (tuned),70/30,76,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7425863073303738
+Mean baseline,70/30,77,not tuned,
+Multiple linear regression,70/30,77,not tuned,
+Ridge regression (tuned),70/30,77,"{""ridge__alpha"": 10.0}",1.6349163449616178
+Lasso regression (tuned),70/30,77,"{""lasso__alpha"": 0.1}",1.6015562372704246
+Random forest (tuned),70/30,77,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7115043953839124
+Gradient boosting (tuned),70/30,77,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7437576092431772
+Mean baseline,70/30,78,not tuned,
+Multiple linear regression,70/30,78,not tuned,
+Ridge regression (tuned),70/30,78,"{""ridge__alpha"": 10.0}",1.6265127963254762
+Lasso regression (tuned),70/30,78,"{""lasso__alpha"": 0.1}",1.6016706729963324
+Random forest (tuned),70/30,78,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6387028175591147
+Gradient boosting (tuned),70/30,78,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6600552237872659
+Mean baseline,70/30,79,not tuned,
+Multiple linear regression,70/30,79,not tuned,
+Ridge regression (tuned),70/30,79,"{""ridge__alpha"": 10.0}",1.7544452995528146
+Lasso regression (tuned),70/30,79,"{""lasso__alpha"": 0.1}",1.6916610017052907
+Random forest (tuned),70/30,79,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7824031172392523
+Gradient boosting (tuned),70/30,79,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8415147882970024
+Mean baseline,70/30,80,not tuned,
+Multiple linear regression,70/30,80,not tuned,
+Ridge regression (tuned),70/30,80,"{""ridge__alpha"": 10.0}",1.5696575341956849
+Lasso regression (tuned),70/30,80,"{""lasso__alpha"": 0.1}",1.4870846164129694
+Random forest (tuned),70/30,80,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.503482260823226
+Gradient boosting (tuned),70/30,80,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.540203812962794
+Mean baseline,70/30,81,not tuned,
+Multiple linear regression,70/30,81,not tuned,
+Ridge regression (tuned),70/30,81,"{""ridge__alpha"": 10.0}",1.5079592647003246
+Lasso regression (tuned),70/30,81,"{""lasso__alpha"": 0.1}",1.5414274421980496
+Random forest (tuned),70/30,81,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4612957239905033
+Gradient boosting (tuned),70/30,81,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.549846524522182
+Mean baseline,70/30,82,not tuned,
+Multiple linear regression,70/30,82,not tuned,
+Ridge regression (tuned),70/30,82,"{""ridge__alpha"": 10.0}",1.7571753663190344
+Lasso regression (tuned),70/30,82,"{""lasso__alpha"": 0.1}",1.7546865803674898
+Random forest (tuned),70/30,82,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6143924371404892
+Gradient boosting (tuned),70/30,82,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5973788511986622
+Mean baseline,70/30,83,not tuned,
+Multiple linear regression,70/30,83,not tuned,
+Ridge regression (tuned),70/30,83,"{""ridge__alpha"": 1.0}",1.7320795100505184
+Lasso regression (tuned),70/30,83,"{""lasso__alpha"": 0.1}",1.6583837828601506
+Random forest (tuned),70/30,83,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6592909176149018
+Gradient boosting (tuned),70/30,83,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.741727226238228
+Mean baseline,70/30,84,not tuned,
+Multiple linear regression,70/30,84,not tuned,
+Ridge regression (tuned),70/30,84,"{""ridge__alpha"": 10.0}",1.5118908396695667
+Lasso regression (tuned),70/30,84,"{""lasso__alpha"": 0.1}",1.5107211661320725
+Random forest (tuned),70/30,84,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5962120011308858
+Gradient boosting (tuned),70/30,84,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5839507963207229
+Mean baseline,70/30,85,not tuned,
+Multiple linear regression,70/30,85,not tuned,
+Ridge regression (tuned),70/30,85,"{""ridge__alpha"": 10.0}",1.717154387338126
+Lasso regression (tuned),70/30,85,"{""lasso__alpha"": 0.1}",1.7015569545653029
+Random forest (tuned),70/30,85,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7544950294394925
+Gradient boosting (tuned),70/30,85,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7310155920221604
+Mean baseline,70/30,86,not tuned,
+Multiple linear regression,70/30,86,not tuned,
+Ridge regression (tuned),70/30,86,"{""ridge__alpha"": 10.0}",1.6006315385623489
+Lasso regression (tuned),70/30,86,"{""lasso__alpha"": 0.1}",1.5348531459994732
+Random forest (tuned),70/30,86,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5244770824960352
+Gradient boosting (tuned),70/30,86,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5300522283901847
+Mean baseline,70/30,87,not tuned,
+Multiple linear regression,70/30,87,not tuned,
+Ridge regression (tuned),70/30,87,"{""ridge__alpha"": 10.0}",1.6402669320387666
+Lasso regression (tuned),70/30,87,"{""lasso__alpha"": 0.1}",1.5425481260755478
+Random forest (tuned),70/30,87,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5019174670899993
+Gradient boosting (tuned),70/30,87,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5141044687429641
+Mean baseline,70/30,88,not tuned,
+Multiple linear regression,70/30,88,not tuned,
+Ridge regression (tuned),70/30,88,"{""ridge__alpha"": 10.0}",1.7967677925270973
+Lasso regression (tuned),70/30,88,"{""lasso__alpha"": 0.1}",1.714009688182312
+Random forest (tuned),70/30,88,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.727671755281494
+Gradient boosting (tuned),70/30,88,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7625577794372513
+Mean baseline,70/30,89,not tuned,
+Multiple linear regression,70/30,89,not tuned,
+Ridge regression (tuned),70/30,89,"{""ridge__alpha"": 10.0}",1.6420324745407389
+Lasso regression (tuned),70/30,89,"{""lasso__alpha"": 0.1}",1.642397855201993
+Random forest (tuned),70/30,89,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.609732334020919
+Gradient boosting (tuned),70/30,89,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6601922364109647
+Mean baseline,70/30,90,not tuned,
+Multiple linear regression,70/30,90,not tuned,
+Ridge regression (tuned),70/30,90,"{""ridge__alpha"": 10.0}",1.7646360731173627
+Lasso regression (tuned),70/30,90,"{""lasso__alpha"": 0.1}",1.6832517889180483
+Random forest (tuned),70/30,90,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7042562259627556
+Gradient boosting (tuned),70/30,90,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7394722439938453
+Mean baseline,70/30,91,not tuned,
+Multiple linear regression,70/30,91,not tuned,
+Ridge regression (tuned),70/30,91,"{""ridge__alpha"": 10.0}",1.6816928685167631
+Lasso regression (tuned),70/30,91,"{""lasso__alpha"": 0.1}",1.6718476144304848
+Random forest (tuned),70/30,91,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6333979929830722
+Gradient boosting (tuned),70/30,91,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.661003347179174
+Mean baseline,70/30,92,not tuned,
+Multiple linear regression,70/30,92,not tuned,
+Ridge regression (tuned),70/30,92,"{""ridge__alpha"": 10.0}",1.8092218003192269
+Lasso regression (tuned),70/30,92,"{""lasso__alpha"": 0.1}",1.7115499994539944
+Random forest (tuned),70/30,92,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.8434105444814861
+Gradient boosting (tuned),70/30,92,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.870537542904795
+Mean baseline,70/30,93,not tuned,
+Multiple linear regression,70/30,93,not tuned,
+Ridge regression (tuned),70/30,93,"{""ridge__alpha"": 10.0}",1.7020989508855764
+Lasso regression (tuned),70/30,93,"{""lasso__alpha"": 0.1}",1.6323378124931842
+Random forest (tuned),70/30,93,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6167229735507906
+Gradient boosting (tuned),70/30,93,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6786268111386384
+Mean baseline,70/30,94,not tuned,
+Multiple linear regression,70/30,94,not tuned,
+Ridge regression (tuned),70/30,94,"{""ridge__alpha"": 10.0}",1.5203093843823265
+Lasso regression (tuned),70/30,94,"{""lasso__alpha"": 0.1}",1.4570688706572488
+Random forest (tuned),70/30,94,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.483444091383052
+Gradient boosting (tuned),70/30,94,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.537170895163954
+Mean baseline,70/30,95,not tuned,
+Multiple linear regression,70/30,95,not tuned,
+Ridge regression (tuned),70/30,95,"{""ridge__alpha"": 10.0}",1.7196570733954535
+Lasso regression (tuned),70/30,95,"{""lasso__alpha"": 0.1}",1.7246420271904754
+Random forest (tuned),70/30,95,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.633766078387333
+Gradient boosting (tuned),70/30,95,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6842991958940554
+Mean baseline,70/30,96,not tuned,
+Multiple linear regression,70/30,96,not tuned,
+Ridge regression (tuned),70/30,96,"{""ridge__alpha"": 10.0}",1.7351559186274916
+Lasso regression (tuned),70/30,96,"{""lasso__alpha"": 0.1}",1.6971138716358318
+Random forest (tuned),70/30,96,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7011346897073214
+Gradient boosting (tuned),70/30,96,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7278976577317748
+Mean baseline,70/30,97,not tuned,
+Multiple linear regression,70/30,97,not tuned,
+Ridge regression (tuned),70/30,97,"{""ridge__alpha"": 10.0}",1.6751689319590657
+Lasso regression (tuned),70/30,97,"{""lasso__alpha"": 0.1}",1.6368148001283356
+Random forest (tuned),70/30,97,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6502198604493177
+Gradient boosting (tuned),70/30,97,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6875251811325214
+Mean baseline,70/30,98,not tuned,
+Multiple linear regression,70/30,98,not tuned,
+Ridge regression (tuned),70/30,98,"{""ridge__alpha"": 10.0}",1.7232779342916564
+Lasso regression (tuned),70/30,98,"{""lasso__alpha"": 0.1}",1.6611270651559953
+Random forest (tuned),70/30,98,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.719110566192788
+Gradient boosting (tuned),70/30,98,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6903911253975106
+Mean baseline,70/30,99,not tuned,
+Multiple linear regression,70/30,99,not tuned,
+Ridge regression (tuned),70/30,99,"{""ridge__alpha"": 10.0}",1.739425112474582
+Lasso regression (tuned),70/30,99,"{""lasso__alpha"": 0.1}",1.6737078735840214
+Random forest (tuned),70/30,99,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7542949714107678
+Gradient boosting (tuned),70/30,99,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.753836229638226
+Mean baseline,70/30,100,not tuned,
+Multiple linear regression,70/30,100,not tuned,
+Ridge regression (tuned),70/30,100,"{""ridge__alpha"": 1.0}",1.7240560521335873
+Lasso regression (tuned),70/30,100,"{""lasso__alpha"": 0.1}",1.6846144980827167
+Random forest (tuned),70/30,100,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6853757212220515
+Gradient boosting (tuned),70/30,100,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7202839350208166
+Mean baseline,70/30,101,not tuned,
+Multiple linear regression,70/30,101,not tuned,
+Ridge regression (tuned),70/30,101,"{""ridge__alpha"": 10.0}",1.6647641364980044
+Lasso regression (tuned),70/30,101,"{""lasso__alpha"": 0.1}",1.6320405279254522
+Random forest (tuned),70/30,101,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6199183992967563
+Gradient boosting (tuned),70/30,101,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6766803027926218
+Mean baseline,70/30,102,not tuned,
+Multiple linear regression,70/30,102,not tuned,
+Ridge regression (tuned),70/30,102,"{""ridge__alpha"": 100.0}",1.7603165164525767
+Lasso regression (tuned),70/30,102,"{""lasso__alpha"": 0.1}",1.7513335543727255
+Random forest (tuned),70/30,102,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6558166623839217
+Gradient boosting (tuned),70/30,102,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6732033504492179
+Mean baseline,70/30,103,not tuned,
+Multiple linear regression,70/30,103,not tuned,
+Ridge regression (tuned),70/30,103,"{""ridge__alpha"": 10.0}",1.719084613535069
+Lasso regression (tuned),70/30,103,"{""lasso__alpha"": 0.1}",1.6914250884144626
+Random forest (tuned),70/30,103,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7438053506210422
+Gradient boosting (tuned),70/30,103,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6686928267757413
+Mean baseline,70/30,104,not tuned,
+Multiple linear regression,70/30,104,not tuned,
+Ridge regression (tuned),70/30,104,"{""ridge__alpha"": 10.0}",1.7313533999050432
+Lasso regression (tuned),70/30,104,"{""lasso__alpha"": 0.1}",1.648061437547939
+Random forest (tuned),70/30,104,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7054955314692428
+Gradient boosting (tuned),70/30,104,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7256655545612063
+Mean baseline,70/30,105,not tuned,
+Multiple linear regression,70/30,105,not tuned,
+Ridge regression (tuned),70/30,105,"{""ridge__alpha"": 10.0}",1.702638319789789
+Lasso regression (tuned),70/30,105,"{""lasso__alpha"": 0.1}",1.6740493991731789
+Random forest (tuned),70/30,105,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7351166718354836
+Gradient boosting (tuned),70/30,105,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7086423191051963
+Mean baseline,70/30,106,not tuned,
+Multiple linear regression,70/30,106,not tuned,
+Ridge regression (tuned),70/30,106,"{""ridge__alpha"": 10.0}",1.6469628272350214
+Lasso regression (tuned),70/30,106,"{""lasso__alpha"": 0.1}",1.5791376227288865
+Random forest (tuned),70/30,106,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6430509873174064
+Gradient boosting (tuned),70/30,106,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6112445186867572
+Mean baseline,70/30,107,not tuned,
+Multiple linear regression,70/30,107,not tuned,
+Ridge regression (tuned),70/30,107,"{""ridge__alpha"": 100.0}",1.6893358659308575
+Lasso regression (tuned),70/30,107,"{""lasso__alpha"": 0.1}",1.606013409828788
+Random forest (tuned),70/30,107,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6344049719323657
+Gradient boosting (tuned),70/30,107,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6094760036683735
+Mean baseline,70/30,108,not tuned,
+Multiple linear regression,70/30,108,not tuned,
+Ridge regression (tuned),70/30,108,"{""ridge__alpha"": 10.0}",1.5943919961821156
+Lasso regression (tuned),70/30,108,"{""lasso__alpha"": 0.1}",1.5372127279915822
+Random forest (tuned),70/30,108,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5752555347064194
+Gradient boosting (tuned),70/30,108,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.616127201097172
+Mean baseline,70/30,109,not tuned,
+Multiple linear regression,70/30,109,not tuned,
+Ridge regression (tuned),70/30,109,"{""ridge__alpha"": 10.0}",1.6839181768542228
+Lasso regression (tuned),70/30,109,"{""lasso__alpha"": 0.1}",1.6532377063956076
+Random forest (tuned),70/30,109,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6286331339190347
+Gradient boosting (tuned),70/30,109,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6648161189641049
+Mean baseline,70/30,110,not tuned,
+Multiple linear regression,70/30,110,not tuned,
+Ridge regression (tuned),70/30,110,"{""ridge__alpha"": 10.0}",1.661458801160682
+Lasso regression (tuned),70/30,110,"{""lasso__alpha"": 0.1}",1.5651162597384105
+Random forest (tuned),70/30,110,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6931894149677824
+Gradient boosting (tuned),70/30,110,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7785181820464995
+Mean baseline,70/30,111,not tuned,
+Multiple linear regression,70/30,111,not tuned,
+Ridge regression (tuned),70/30,111,"{""ridge__alpha"": 10.0}",1.6411323866818297
+Lasso regression (tuned),70/30,111,"{""lasso__alpha"": 0.1}",1.6325228008288786
+Random forest (tuned),70/30,111,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6040774484013494
+Gradient boosting (tuned),70/30,111,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6071622198955364
+Mean baseline,70/30,112,not tuned,
+Multiple linear regression,70/30,112,not tuned,
+Ridge regression (tuned),70/30,112,"{""ridge__alpha"": 10.0}",1.8738819828922377
+Lasso regression (tuned),70/30,112,"{""lasso__alpha"": 0.1}",1.77297147622143
+Random forest (tuned),70/30,112,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7293128543410738
+Gradient boosting (tuned),70/30,112,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.773816440454307
+Mean baseline,70/30,113,not tuned,
+Multiple linear regression,70/30,113,not tuned,
+Ridge regression (tuned),70/30,113,"{""ridge__alpha"": 10.0}",1.7078866166644104
+Lasso regression (tuned),70/30,113,"{""lasso__alpha"": 0.1}",1.678000286123119
+Random forest (tuned),70/30,113,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7548783441369846
+Gradient boosting (tuned),70/30,113,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6716602704334167
+Mean baseline,70/30,114,not tuned,
+Multiple linear regression,70/30,114,not tuned,
+Ridge regression (tuned),70/30,114,"{""ridge__alpha"": 10.0}",1.5192975400079773
+Lasso regression (tuned),70/30,114,"{""lasso__alpha"": 0.1}",1.5231755363165072
+Random forest (tuned),70/30,114,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6402994082306173
+Gradient boosting (tuned),70/30,114,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6923315200756626
+Mean baseline,70/30,115,not tuned,
+Multiple linear regression,70/30,115,not tuned,
+Ridge regression (tuned),70/30,115,"{""ridge__alpha"": 10.0}",1.7885740049015726
+Lasso regression (tuned),70/30,115,"{""lasso__alpha"": 0.1}",1.727625423469704
+Random forest (tuned),70/30,115,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7147425495354547
+Gradient boosting (tuned),70/30,115,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.641595116587028
+Mean baseline,70/30,116,not tuned,
+Multiple linear regression,70/30,116,not tuned,
+Ridge regression (tuned),70/30,116,"{""ridge__alpha"": 10.0}",1.604235861036014
+Lasso regression (tuned),70/30,116,"{""lasso__alpha"": 0.1}",1.548937077153438
+Random forest (tuned),70/30,116,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5806899569805752
+Gradient boosting (tuned),70/30,116,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6368165329465072
+Mean baseline,70/30,117,not tuned,
+Multiple linear regression,70/30,117,not tuned,
+Ridge regression (tuned),70/30,117,"{""ridge__alpha"": 10.0}",1.6940441567916185
+Lasso regression (tuned),70/30,117,"{""lasso__alpha"": 0.1}",1.5842443068461285
+Random forest (tuned),70/30,117,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6312914740904567
+Gradient boosting (tuned),70/30,117,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6101901829327594
+Mean baseline,70/30,118,not tuned,
+Multiple linear regression,70/30,118,not tuned,
+Ridge regression (tuned),70/30,118,"{""ridge__alpha"": 10.0}",1.8840264181774509
+Lasso regression (tuned),70/30,118,"{""lasso__alpha"": 0.1}",1.8106007645634847
+Random forest (tuned),70/30,118,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7943955211260487
+Gradient boosting (tuned),70/30,118,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6758380512844298
+Mean baseline,70/30,119,not tuned,
+Multiple linear regression,70/30,119,not tuned,
+Ridge regression (tuned),70/30,119,"{""ridge__alpha"": 10.0}",1.6286195911234471
+Lasso regression (tuned),70/30,119,"{""lasso__alpha"": 0.1}",1.5856739895536023
+Random forest (tuned),70/30,119,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.659862744014034
+Gradient boosting (tuned),70/30,119,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6686182341100362
+Mean baseline,70/30,120,not tuned,
+Multiple linear regression,70/30,120,not tuned,
+Ridge regression (tuned),70/30,120,"{""ridge__alpha"": 10.0}",1.6447320493261102
+Lasso regression (tuned),70/30,120,"{""lasso__alpha"": 0.1}",1.6201949349554838
+Random forest (tuned),70/30,120,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6002947423994711
+Gradient boosting (tuned),70/30,120,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6099573145086297
+Mean baseline,70/30,121,not tuned,
+Multiple linear regression,70/30,121,not tuned,
+Ridge regression (tuned),70/30,121,"{""ridge__alpha"": 10.0}",1.8251376079050616
+Lasso regression (tuned),70/30,121,"{""lasso__alpha"": 0.1}",1.7722961576205325
+Random forest (tuned),70/30,121,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7995545546516318
+Gradient boosting (tuned),70/30,121,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8000344578619623
+Mean baseline,70/30,122,not tuned,
+Multiple linear regression,70/30,122,not tuned,
+Ridge regression (tuned),70/30,122,"{""ridge__alpha"": 10.0}",1.5333360854834948
+Lasso regression (tuned),70/30,122,"{""lasso__alpha"": 0.1}",1.4795286528322154
+Random forest (tuned),70/30,122,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5693494299543724
+Gradient boosting (tuned),70/30,122,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.620775541910382
+Mean baseline,70/30,123,not tuned,
+Multiple linear regression,70/30,123,not tuned,
+Ridge regression (tuned),70/30,123,"{""ridge__alpha"": 10.0}",1.6634881396797314
+Lasso regression (tuned),70/30,123,"{""lasso__alpha"": 0.1}",1.6361571990709423
+Random forest (tuned),70/30,123,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5688845321850036
+Gradient boosting (tuned),70/30,123,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.616185782486406
+Mean baseline,70/30,124,not tuned,
+Multiple linear regression,70/30,124,not tuned,
+Ridge regression (tuned),70/30,124,"{""ridge__alpha"": 10.0}",1.6285185170100065
+Lasso regression (tuned),70/30,124,"{""lasso__alpha"": 0.1}",1.5942250201728114
+Random forest (tuned),70/30,124,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5352859423900622
+Gradient boosting (tuned),70/30,124,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5630684340423682
+Mean baseline,70/30,125,not tuned,
+Multiple linear regression,70/30,125,not tuned,
+Ridge regression (tuned),70/30,125,"{""ridge__alpha"": 100.0}",1.6535530986238776
+Lasso regression (tuned),70/30,125,"{""lasso__alpha"": 0.1}",1.589670238340641
+Random forest (tuned),70/30,125,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.503101948737088
+Gradient boosting (tuned),70/30,125,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4798995996870254
+Mean baseline,70/30,126,not tuned,
+Multiple linear regression,70/30,126,not tuned,
+Ridge regression (tuned),70/30,126,"{""ridge__alpha"": 10.0}",1.4986787191131408
+Lasso regression (tuned),70/30,126,"{""lasso__alpha"": 0.1}",1.4649519248706755
+Random forest (tuned),70/30,126,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5078275939915733
+Gradient boosting (tuned),70/30,126,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4622547686416283
+Mean baseline,70/30,127,not tuned,
+Multiple linear regression,70/30,127,not tuned,
+Ridge regression (tuned),70/30,127,"{""ridge__alpha"": 10.0}",1.815188824788878
+Lasso regression (tuned),70/30,127,"{""lasso__alpha"": 0.1}",1.7926230699078816
+Random forest (tuned),70/30,127,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7926075837808384
+Gradient boosting (tuned),70/30,127,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.866600882872395
+Mean baseline,70/30,128,not tuned,
+Multiple linear regression,70/30,128,not tuned,
+Ridge regression (tuned),70/30,128,"{""ridge__alpha"": 10.0}",1.5756831049646765
+Lasso regression (tuned),70/30,128,"{""lasso__alpha"": 0.1}",1.5608326056305653
+Random forest (tuned),70/30,128,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6464370947967715
+Gradient boosting (tuned),70/30,128,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6192334010666982
+Mean baseline,70/30,129,not tuned,
+Multiple linear regression,70/30,129,not tuned,
+Ridge regression (tuned),70/30,129,"{""ridge__alpha"": 1.0}",1.6861267293968758
+Lasso regression (tuned),70/30,129,"{""lasso__alpha"": 0.1}",1.683331834501881
+Random forest (tuned),70/30,129,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.657487284635738
+Gradient boosting (tuned),70/30,129,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7033358807812988
+Mean baseline,70/30,130,not tuned,
+Multiple linear regression,70/30,130,not tuned,
+Ridge regression (tuned),70/30,130,"{""ridge__alpha"": 10.0}",1.69458236490487
+Lasso regression (tuned),70/30,130,"{""lasso__alpha"": 0.1}",1.7130895913005717
+Random forest (tuned),70/30,130,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6206194417527768
+Gradient boosting (tuned),70/30,130,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6306910091001625
+Mean baseline,70/30,131,not tuned,
+Multiple linear regression,70/30,131,not tuned,
+Ridge regression (tuned),70/30,131,"{""ridge__alpha"": 10.0}",1.6925874024686827
+Lasso regression (tuned),70/30,131,"{""lasso__alpha"": 0.1}",1.675159858459606
+Random forest (tuned),70/30,131,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.717079277000695
+Gradient boosting (tuned),70/30,131,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6915154023461638
+Mean baseline,70/30,132,not tuned,
+Multiple linear regression,70/30,132,not tuned,
+Ridge regression (tuned),70/30,132,"{""ridge__alpha"": 10.0}",1.5619958963974752
+Lasso regression (tuned),70/30,132,"{""lasso__alpha"": 0.1}",1.5324136445721597
+Random forest (tuned),70/30,132,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5627272505869343
+Gradient boosting (tuned),70/30,132,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5864260472517029
+Mean baseline,70/30,133,not tuned,
+Multiple linear regression,70/30,133,not tuned,
+Ridge regression (tuned),70/30,133,"{""ridge__alpha"": 10.0}",1.6530278446025886
+Lasso regression (tuned),70/30,133,"{""lasso__alpha"": 0.1}",1.6175001638900421
+Random forest (tuned),70/30,133,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6696364025067951
+Gradient boosting (tuned),70/30,133,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6759948035139351
+Mean baseline,70/30,134,not tuned,
+Multiple linear regression,70/30,134,not tuned,
+Ridge regression (tuned),70/30,134,"{""ridge__alpha"": 10.0}",1.4842704869612309
+Lasso regression (tuned),70/30,134,"{""lasso__alpha"": 0.1}",1.4793708303418693
+Random forest (tuned),70/30,134,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5699425789077925
+Gradient boosting (tuned),70/30,134,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5399562211608038
+Mean baseline,70/30,135,not tuned,
+Multiple linear regression,70/30,135,not tuned,
+Ridge regression (tuned),70/30,135,"{""ridge__alpha"": 1.0}",1.6387186004663068
+Lasso regression (tuned),70/30,135,"{""lasso__alpha"": 0.01}",1.6347574470652115
+Random forest (tuned),70/30,135,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7299686724221388
+Gradient boosting (tuned),70/30,135,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.703602107474514
+Mean baseline,70/30,136,not tuned,
+Multiple linear regression,70/30,136,not tuned,
+Ridge regression (tuned),70/30,136,"{""ridge__alpha"": 1.0}",1.5783443450683605
+Lasso regression (tuned),70/30,136,"{""lasso__alpha"": 0.1}",1.5297072184949403
+Random forest (tuned),70/30,136,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5634802637437528
+Gradient boosting (tuned),70/30,136,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6368706985863224
+Mean baseline,70/30,137,not tuned,
+Multiple linear regression,70/30,137,not tuned,
+Ridge regression (tuned),70/30,137,"{""ridge__alpha"": 10.0}",1.7881654483178706
+Lasso regression (tuned),70/30,137,"{""lasso__alpha"": 0.1}",1.7046966604203515
+Random forest (tuned),70/30,137,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6902136536133205
+Gradient boosting (tuned),70/30,137,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7608252256580137
+Mean baseline,70/30,138,not tuned,
+Multiple linear regression,70/30,138,not tuned,
+Ridge regression (tuned),70/30,138,"{""ridge__alpha"": 10.0}",1.7460576270852783
+Lasso regression (tuned),70/30,138,"{""lasso__alpha"": 0.1}",1.7013773740032039
+Random forest (tuned),70/30,138,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.787213624574294
+Gradient boosting (tuned),70/30,138,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8126129691851631
+Mean baseline,70/30,139,not tuned,
+Multiple linear regression,70/30,139,not tuned,
+Ridge regression (tuned),70/30,139,"{""ridge__alpha"": 10.0}",1.601625771922657
+Lasso regression (tuned),70/30,139,"{""lasso__alpha"": 0.1}",1.540882341634637
+Random forest (tuned),70/30,139,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6292218841201298
+Gradient boosting (tuned),70/30,139,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6720894401982414
+Mean baseline,70/30,140,not tuned,
+Multiple linear regression,70/30,140,not tuned,
+Ridge regression (tuned),70/30,140,"{""ridge__alpha"": 10.0}",1.6058056336265527
+Lasso regression (tuned),70/30,140,"{""lasso__alpha"": 0.1}",1.5883868287374177
+Random forest (tuned),70/30,140,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5485316074625097
+Gradient boosting (tuned),70/30,140,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.5032486014085795
+Mean baseline,70/30,141,not tuned,
+Multiple linear regression,70/30,141,not tuned,
+Ridge regression (tuned),70/30,141,"{""ridge__alpha"": 10.0}",1.6530565721580266
+Lasso regression (tuned),70/30,141,"{""lasso__alpha"": 0.1}",1.6120049557012428
+Random forest (tuned),70/30,141,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5735118380200257
+Gradient boosting (tuned),70/30,141,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.56100131297233
+Mean baseline,70/30,142,not tuned,
+Multiple linear regression,70/30,142,not tuned,
+Ridge regression (tuned),70/30,142,"{""ridge__alpha"": 10.0}",1.6139499301770204
+Lasso regression (tuned),70/30,142,"{""lasso__alpha"": 0.1}",1.5820422293082264
+Random forest (tuned),70/30,142,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6432125479318302
+Gradient boosting (tuned),70/30,142,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6204736243189668
+Mean baseline,70/30,143,not tuned,
+Multiple linear regression,70/30,143,not tuned,
+Ridge regression (tuned),70/30,143,"{""ridge__alpha"": 10.0}",1.4798848133000595
+Lasso regression (tuned),70/30,143,"{""lasso__alpha"": 0.1}",1.445300465350674
+Random forest (tuned),70/30,143,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6200296963268912
+Gradient boosting (tuned),70/30,143,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6988326282348596
+Mean baseline,70/30,144,not tuned,
+Multiple linear regression,70/30,144,not tuned,
+Ridge regression (tuned),70/30,144,"{""ridge__alpha"": 10.0}",1.7269745969134234
+Lasso regression (tuned),70/30,144,"{""lasso__alpha"": 0.1}",1.658910234419907
+Random forest (tuned),70/30,144,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7308895637671025
+Gradient boosting (tuned),70/30,144,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7073584848340508
+Mean baseline,70/30,145,not tuned,
+Multiple linear regression,70/30,145,not tuned,
+Ridge regression (tuned),70/30,145,"{""ridge__alpha"": 1.0}",1.5409533675507157
+Lasso regression (tuned),70/30,145,"{""lasso__alpha"": 0.1}",1.4695234090642242
+Random forest (tuned),70/30,145,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.560038663483312
+Gradient boosting (tuned),70/30,145,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5349777777974056
+Mean baseline,70/30,146,not tuned,
+Multiple linear regression,70/30,146,not tuned,
+Ridge regression (tuned),70/30,146,"{""ridge__alpha"": 100.0}",1.729569625948919
+Lasso regression (tuned),70/30,146,"{""lasso__alpha"": 0.1}",1.6723599769510287
+Random forest (tuned),70/30,146,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6155312326363087
+Gradient boosting (tuned),70/30,146,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6353208792421743
+Mean baseline,70/30,147,not tuned,
+Multiple linear regression,70/30,147,not tuned,
+Ridge regression (tuned),70/30,147,"{""ridge__alpha"": 100.0}",1.8104436922824196
+Lasso regression (tuned),70/30,147,"{""lasso__alpha"": 0.1}",1.7327807426924688
+Random forest (tuned),70/30,147,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6727376394554903
+Gradient boosting (tuned),70/30,147,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.694021414828475
+Mean baseline,70/30,148,not tuned,
+Multiple linear regression,70/30,148,not tuned,
+Ridge regression (tuned),70/30,148,"{""ridge__alpha"": 10.0}",1.7397531575188168
+Lasso regression (tuned),70/30,148,"{""lasso__alpha"": 0.1}",1.6768812921007565
+Random forest (tuned),70/30,148,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6453450312503974
+Gradient boosting (tuned),70/30,148,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6714024182979164
+Mean baseline,70/30,149,not tuned,
+Multiple linear regression,70/30,149,not tuned,
+Ridge regression (tuned),70/30,149,"{""ridge__alpha"": 10.0}",1.4856133502934257
+Lasso regression (tuned),70/30,149,"{""lasso__alpha"": 0.1}",1.449419157091846
+Random forest (tuned),70/30,149,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4525756202269182
+Gradient boosting (tuned),70/30,149,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4680071752878798
+Mean baseline,70/30,150,not tuned,
+Multiple linear regression,70/30,150,not tuned,
+Ridge regression (tuned),70/30,150,"{""ridge__alpha"": 10.0}",1.5580472537781134
+Lasso regression (tuned),70/30,150,"{""lasso__alpha"": 0.1}",1.5385543616559147
+Random forest (tuned),70/30,150,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.658780377563403
+Gradient boosting (tuned),70/30,150,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6047730873690458
+Mean baseline,70/30,151,not tuned,
+Multiple linear regression,70/30,151,not tuned,
+Ridge regression (tuned),70/30,151,"{""ridge__alpha"": 10.0}",1.6327092928881992
+Lasso regression (tuned),70/30,151,"{""lasso__alpha"": 0.1}",1.5501866895396532
+Random forest (tuned),70/30,151,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4881690250262574
+Gradient boosting (tuned),70/30,151,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5591074663174342
+Mean baseline,70/30,152,not tuned,
+Multiple linear regression,70/30,152,not tuned,
+Ridge regression (tuned),70/30,152,"{""ridge__alpha"": 1.0}",1.679748850027978
+Lasso regression (tuned),70/30,152,"{""lasso__alpha"": 0.01}",1.6841531764104967
+Random forest (tuned),70/30,152,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.831571608923062
+Gradient boosting (tuned),70/30,152,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8253331296878657
+Mean baseline,70/30,153,not tuned,
+Multiple linear regression,70/30,153,not tuned,
+Ridge regression (tuned),70/30,153,"{""ridge__alpha"": 10.0}",1.552972599034328
+Lasso regression (tuned),70/30,153,"{""lasso__alpha"": 0.1}",1.4958202977604216
+Random forest (tuned),70/30,153,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5312176552405887
+Gradient boosting (tuned),70/30,153,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5266888171642106
+Mean baseline,70/30,154,not tuned,
+Multiple linear regression,70/30,154,not tuned,
+Ridge regression (tuned),70/30,154,"{""ridge__alpha"": 10.0}",1.8138099804018317
+Lasso regression (tuned),70/30,154,"{""lasso__alpha"": 0.1}",1.7754339029567188
+Random forest (tuned),70/30,154,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.692333561363347
+Gradient boosting (tuned),70/30,154,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7669390285975564
+Mean baseline,70/30,155,not tuned,
+Multiple linear regression,70/30,155,not tuned,
+Ridge regression (tuned),70/30,155,"{""ridge__alpha"": 10.0}",1.7577454556105234
+Lasso regression (tuned),70/30,155,"{""lasso__alpha"": 0.1}",1.7301458804472527
+Random forest (tuned),70/30,155,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7865409029328991
+Gradient boosting (tuned),70/30,155,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8185569901151049
+Mean baseline,70/30,156,not tuned,
+Multiple linear regression,70/30,156,not tuned,
+Ridge regression (tuned),70/30,156,"{""ridge__alpha"": 10.0}",1.4890347815658895
+Lasso regression (tuned),70/30,156,"{""lasso__alpha"": 0.1}",1.4748725888336502
+Random forest (tuned),70/30,156,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.476120853731531
+Gradient boosting (tuned),70/30,156,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5002391205647787
+Mean baseline,70/30,157,not tuned,
+Multiple linear regression,70/30,157,not tuned,
+Ridge regression (tuned),70/30,157,"{""ridge__alpha"": 10.0}",1.533784609131303
+Lasso regression (tuned),70/30,157,"{""lasso__alpha"": 0.01}",1.5514512155015128
+Random forest (tuned),70/30,157,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5350820595325987
+Gradient boosting (tuned),70/30,157,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5988637250459579
+Mean baseline,70/30,158,not tuned,
+Multiple linear regression,70/30,158,not tuned,
+Ridge regression (tuned),70/30,158,"{""ridge__alpha"": 10.0}",1.6299725584152516
+Lasso regression (tuned),70/30,158,"{""lasso__alpha"": 0.1}",1.5414106969237746
+Random forest (tuned),70/30,158,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6607295357834544
+Gradient boosting (tuned),70/30,158,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5697057639954373
+Mean baseline,70/30,159,not tuned,
+Multiple linear regression,70/30,159,not tuned,
+Ridge regression (tuned),70/30,159,"{""ridge__alpha"": 10.0}",1.748940849969714
+Lasso regression (tuned),70/30,159,"{""lasso__alpha"": 0.1}",1.74868855759479
+Random forest (tuned),70/30,159,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.747049205649588
+Gradient boosting (tuned),70/30,159,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7598037814717327
+Mean baseline,70/30,160,not tuned,
+Multiple linear regression,70/30,160,not tuned,
+Ridge regression (tuned),70/30,160,"{""ridge__alpha"": 10.0}",1.622859197884333
+Lasso regression (tuned),70/30,160,"{""lasso__alpha"": 0.1}",1.6072563299881957
+Random forest (tuned),70/30,160,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6659946393390972
+Gradient boosting (tuned),70/30,160,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.65396224884494
+Mean baseline,70/30,161,not tuned,
+Multiple linear regression,70/30,161,not tuned,
+Ridge regression (tuned),70/30,161,"{""ridge__alpha"": 10.0}",1.4577824403865507
+Lasso regression (tuned),70/30,161,"{""lasso__alpha"": 0.1}",1.4536145336430808
+Random forest (tuned),70/30,161,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5122631692396244
+Gradient boosting (tuned),70/30,161,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.446519214578726
+Mean baseline,70/30,162,not tuned,
+Multiple linear regression,70/30,162,not tuned,
+Ridge regression (tuned),70/30,162,"{""ridge__alpha"": 10.0}",1.7230177125928499
+Lasso regression (tuned),70/30,162,"{""lasso__alpha"": 0.1}",1.6606590583123553
+Random forest (tuned),70/30,162,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.617432627759543
+Gradient boosting (tuned),70/30,162,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.640657484902837
+Mean baseline,70/30,163,not tuned,
+Multiple linear regression,70/30,163,not tuned,
+Ridge regression (tuned),70/30,163,"{""ridge__alpha"": 10.0}",1.6828710686696002
+Lasso regression (tuned),70/30,163,"{""lasso__alpha"": 0.1}",1.6037453413749034
+Random forest (tuned),70/30,163,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6333828711768572
+Gradient boosting (tuned),70/30,163,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6092446102086249
+Mean baseline,70/30,164,not tuned,
+Multiple linear regression,70/30,164,not tuned,
+Ridge regression (tuned),70/30,164,"{""ridge__alpha"": 10.0}",1.5369714696862449
+Lasso regression (tuned),70/30,164,"{""lasso__alpha"": 0.1}",1.491776203583403
+Random forest (tuned),70/30,164,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.622481612689241
+Gradient boosting (tuned),70/30,164,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.62354711042575
+Mean baseline,70/30,165,not tuned,
+Multiple linear regression,70/30,165,not tuned,
+Ridge regression (tuned),70/30,165,"{""ridge__alpha"": 10.0}",1.726491798765122
+Lasso regression (tuned),70/30,165,"{""lasso__alpha"": 0.1}",1.6822974396263035
+Random forest (tuned),70/30,165,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7372832653755736
+Gradient boosting (tuned),70/30,165,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7433610975960412
+Mean baseline,70/30,166,not tuned,
+Multiple linear regression,70/30,166,not tuned,
+Ridge regression (tuned),70/30,166,"{""ridge__alpha"": 10.0}",1.7364912550531226
+Lasso regression (tuned),70/30,166,"{""lasso__alpha"": 0.1}",1.6383040947874594
+Random forest (tuned),70/30,166,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7399960291427117
+Gradient boosting (tuned),70/30,166,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7152392733361879
+Mean baseline,70/30,167,not tuned,
+Multiple linear regression,70/30,167,not tuned,
+Ridge regression (tuned),70/30,167,"{""ridge__alpha"": 10.0}",1.6047942414586687
+Lasso regression (tuned),70/30,167,"{""lasso__alpha"": 0.1}",1.57348147479293
+Random forest (tuned),70/30,167,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6234387846888318
+Gradient boosting (tuned),70/30,167,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6241942710935384
+Mean baseline,70/30,168,not tuned,
+Multiple linear regression,70/30,168,not tuned,
+Ridge regression (tuned),70/30,168,"{""ridge__alpha"": 10.0}",1.6110064980213692
+Lasso regression (tuned),70/30,168,"{""lasso__alpha"": 0.1}",1.5376429509543654
+Random forest (tuned),70/30,168,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5596826512718291
+Gradient boosting (tuned),70/30,168,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5459353920732322
+Mean baseline,70/30,169,not tuned,
+Multiple linear regression,70/30,169,not tuned,
+Ridge regression (tuned),70/30,169,"{""ridge__alpha"": 10.0}",1.5096825145537607
+Lasso regression (tuned),70/30,169,"{""lasso__alpha"": 0.1}",1.501262399283726
+Random forest (tuned),70/30,169,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6358287963533005
+Gradient boosting (tuned),70/30,169,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6141997526978096
+Mean baseline,70/30,170,not tuned,
+Multiple linear regression,70/30,170,not tuned,
+Ridge regression (tuned),70/30,170,"{""ridge__alpha"": 10.0}",1.644428932811444
+Lasso regression (tuned),70/30,170,"{""lasso__alpha"": 0.1}",1.6551012991626295
+Random forest (tuned),70/30,170,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.59378020643059
+Gradient boosting (tuned),70/30,170,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6555054764532453
+Mean baseline,70/30,171,not tuned,
+Multiple linear regression,70/30,171,not tuned,
+Ridge regression (tuned),70/30,171,"{""ridge__alpha"": 10.0}",1.573362091112521
+Lasso regression (tuned),70/30,171,"{""lasso__alpha"": 0.1}",1.4686740761534445
+Random forest (tuned),70/30,171,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.475063201705431
+Gradient boosting (tuned),70/30,171,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4358397926294226
+Mean baseline,70/30,172,not tuned,
+Multiple linear regression,70/30,172,not tuned,
+Ridge regression (tuned),70/30,172,"{""ridge__alpha"": 10.0}",1.4354325055376163
+Lasso regression (tuned),70/30,172,"{""lasso__alpha"": 0.1}",1.4063944749810164
+Random forest (tuned),70/30,172,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4831968284642825
+Gradient boosting (tuned),70/30,172,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4960411915664302
+Mean baseline,70/30,173,not tuned,
+Multiple linear regression,70/30,173,not tuned,
+Ridge regression (tuned),70/30,173,"{""ridge__alpha"": 10.0}",1.8033901517360174
+Lasso regression (tuned),70/30,173,"{""lasso__alpha"": 0.1}",1.7868141697038127
+Random forest (tuned),70/30,173,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7022212570981563
+Gradient boosting (tuned),70/30,173,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7265699750169017
+Mean baseline,70/30,174,not tuned,
+Multiple linear regression,70/30,174,not tuned,
+Ridge regression (tuned),70/30,174,"{""ridge__alpha"": 10.0}",1.7010960267208746
+Lasso regression (tuned),70/30,174,"{""lasso__alpha"": 0.1}",1.628482891588387
+Random forest (tuned),70/30,174,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6790145975737147
+Gradient boosting (tuned),70/30,174,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6759736768358973
+Mean baseline,70/30,175,not tuned,
+Multiple linear regression,70/30,175,not tuned,
+Ridge regression (tuned),70/30,175,"{""ridge__alpha"": 1.0}",1.6147267159688603
+Lasso regression (tuned),70/30,175,"{""lasso__alpha"": 0.1}",1.6147423456269592
+Random forest (tuned),70/30,175,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6999688628243148
+Gradient boosting (tuned),70/30,175,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7076667205477036
+Mean baseline,70/30,176,not tuned,
+Multiple linear regression,70/30,176,not tuned,
+Ridge regression (tuned),70/30,176,"{""ridge__alpha"": 10.0}",1.5728637603140045
+Lasso regression (tuned),70/30,176,"{""lasso__alpha"": 0.1}",1.5502329272333477
+Random forest (tuned),70/30,176,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5920193418029895
+Gradient boosting (tuned),70/30,176,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5716191166638134
+Mean baseline,70/30,177,not tuned,
+Multiple linear regression,70/30,177,not tuned,
+Ridge regression (tuned),70/30,177,"{""ridge__alpha"": 10.0}",1.8258216197859387
+Lasso regression (tuned),70/30,177,"{""lasso__alpha"": 0.1}",1.786364623515763
+Random forest (tuned),70/30,177,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7586845076951394
+Gradient boosting (tuned),70/30,177,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7641320432752536
+Mean baseline,70/30,178,not tuned,
+Multiple linear regression,70/30,178,not tuned,
+Ridge regression (tuned),70/30,178,"{""ridge__alpha"": 10.0}",1.5089147550791888
+Lasso regression (tuned),70/30,178,"{""lasso__alpha"": 0.1}",1.4489695508526286
+Random forest (tuned),70/30,178,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5380671293064139
+Gradient boosting (tuned),70/30,178,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4972169621273625
+Mean baseline,70/30,179,not tuned,
+Multiple linear regression,70/30,179,not tuned,
+Ridge regression (tuned),70/30,179,"{""ridge__alpha"": 10.0}",1.6830618015957888
+Lasso regression (tuned),70/30,179,"{""lasso__alpha"": 0.1}",1.6351495089248371
+Random forest (tuned),70/30,179,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7132705310084098
+Gradient boosting (tuned),70/30,179,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7046650621525117
+Mean baseline,70/30,180,not tuned,
+Multiple linear regression,70/30,180,not tuned,
+Ridge regression (tuned),70/30,180,"{""ridge__alpha"": 10.0}",1.6387913887048307
+Lasso regression (tuned),70/30,180,"{""lasso__alpha"": 0.1}",1.5825209643918206
+Random forest (tuned),70/30,180,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6233255824665864
+Gradient boosting (tuned),70/30,180,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6085324085351083
+Mean baseline,70/30,181,not tuned,
+Multiple linear regression,70/30,181,not tuned,
+Ridge regression (tuned),70/30,181,"{""ridge__alpha"": 10.0}",1.6602356714972644
+Lasso regression (tuned),70/30,181,"{""lasso__alpha"": 0.1}",1.6284735644375075
+Random forest (tuned),70/30,181,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.669058606445179
+Gradient boosting (tuned),70/30,181,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6114863469135277
+Mean baseline,70/30,182,not tuned,
+Multiple linear regression,70/30,182,not tuned,
+Ridge regression (tuned),70/30,182,"{""ridge__alpha"": 100.0}",1.7621473357561719
+Lasso regression (tuned),70/30,182,"{""lasso__alpha"": 0.1}",1.7177474718191885
+Random forest (tuned),70/30,182,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6964347726061575
+Gradient boosting (tuned),70/30,182,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7063726453524701
+Mean baseline,70/30,183,not tuned,
+Multiple linear regression,70/30,183,not tuned,
+Ridge regression (tuned),70/30,183,"{""ridge__alpha"": 10.0}",1.5737218228270322
+Lasso regression (tuned),70/30,183,"{""lasso__alpha"": 0.1}",1.506704425312617
+Random forest (tuned),70/30,183,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.457236141806574
+Gradient boosting (tuned),70/30,183,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4716100942008346
+Mean baseline,70/30,184,not tuned,
+Multiple linear regression,70/30,184,not tuned,
+Ridge regression (tuned),70/30,184,"{""ridge__alpha"": 10.0}",1.772721262391737
+Lasso regression (tuned),70/30,184,"{""lasso__alpha"": 0.1}",1.7471476231778529
+Random forest (tuned),70/30,184,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6778748990523322
+Gradient boosting (tuned),70/30,184,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7143533762126197
+Mean baseline,70/30,185,not tuned,
+Multiple linear regression,70/30,185,not tuned,
+Ridge regression (tuned),70/30,185,"{""ridge__alpha"": 10.0}",1.799714783322471
+Lasso regression (tuned),70/30,185,"{""lasso__alpha"": 0.1}",1.7455759079900972
+Random forest (tuned),70/30,185,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7812596174977462
+Gradient boosting (tuned),70/30,185,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7882987090438902
+Mean baseline,70/30,186,not tuned,
+Multiple linear regression,70/30,186,not tuned,
+Ridge regression (tuned),70/30,186,"{""ridge__alpha"": 10.0}",1.590067316848582
+Lasso regression (tuned),70/30,186,"{""lasso__alpha"": 0.1}",1.5354317354582665
+Random forest (tuned),70/30,186,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5955408038859613
+Gradient boosting (tuned),70/30,186,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4936291172536427
+Mean baseline,70/30,187,not tuned,
+Multiple linear regression,70/30,187,not tuned,
+Ridge regression (tuned),70/30,187,"{""ridge__alpha"": 10.0}",1.692166977460975
+Lasso regression (tuned),70/30,187,"{""lasso__alpha"": 0.1}",1.6197092704828815
+Random forest (tuned),70/30,187,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6400020618088338
+Gradient boosting (tuned),70/30,187,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.652881489426214
+Mean baseline,70/30,188,not tuned,
+Multiple linear regression,70/30,188,not tuned,
+Ridge regression (tuned),70/30,188,"{""ridge__alpha"": 10.0}",1.6411878933716182
+Lasso regression (tuned),70/30,188,"{""lasso__alpha"": 0.1}",1.6066139964546298
+Random forest (tuned),70/30,188,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6481838182609159
+Gradient boosting (tuned),70/30,188,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6642193764251527
+Mean baseline,70/30,189,not tuned,
+Multiple linear regression,70/30,189,not tuned,
+Ridge regression (tuned),70/30,189,"{""ridge__alpha"": 10.0}",1.7001921853623838
+Lasso regression (tuned),70/30,189,"{""lasso__alpha"": 0.1}",1.7014748445867567
+Random forest (tuned),70/30,189,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5161687546910114
+Gradient boosting (tuned),70/30,189,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5713853619423115
+Mean baseline,70/30,190,not tuned,
+Multiple linear regression,70/30,190,not tuned,
+Ridge regression (tuned),70/30,190,"{""ridge__alpha"": 10.0}",1.7006178440845816
+Lasso regression (tuned),70/30,190,"{""lasso__alpha"": 0.1}",1.6841228396554513
+Random forest (tuned),70/30,190,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6706348752546654
+Gradient boosting (tuned),70/30,190,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6850975062762252
+Mean baseline,70/30,191,not tuned,
+Multiple linear regression,70/30,191,not tuned,
+Ridge regression (tuned),70/30,191,"{""ridge__alpha"": 10.0}",1.6427933713837555
+Lasso regression (tuned),70/30,191,"{""lasso__alpha"": 0.1}",1.5865490053478024
+Random forest (tuned),70/30,191,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6320876248167024
+Gradient boosting (tuned),70/30,191,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6343623306351627
+Mean baseline,70/30,192,not tuned,
+Multiple linear regression,70/30,192,not tuned,
+Ridge regression (tuned),70/30,192,"{""ridge__alpha"": 10.0}",1.5990813699102795
+Lasso regression (tuned),70/30,192,"{""lasso__alpha"": 0.1}",1.5437049337381672
+Random forest (tuned),70/30,192,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6579436163639845
+Gradient boosting (tuned),70/30,192,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.691320268767227
+Mean baseline,70/30,193,not tuned,
+Multiple linear regression,70/30,193,not tuned,
+Ridge regression (tuned),70/30,193,"{""ridge__alpha"": 10.0}",1.7206767677374053
+Lasso regression (tuned),70/30,193,"{""lasso__alpha"": 0.1}",1.6100293044637737
+Random forest (tuned),70/30,193,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5777290354478386
+Gradient boosting (tuned),70/30,193,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6288731743464873
+Mean baseline,70/30,194,not tuned,
+Multiple linear regression,70/30,194,not tuned,
+Ridge regression (tuned),70/30,194,"{""ridge__alpha"": 10.0}",1.7342286833337859
+Lasso regression (tuned),70/30,194,"{""lasso__alpha"": 0.1}",1.6220895589566955
+Random forest (tuned),70/30,194,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7190862190938525
+Gradient boosting (tuned),70/30,194,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6595126489293055
+Mean baseline,70/30,195,not tuned,
+Multiple linear regression,70/30,195,not tuned,
+Ridge regression (tuned),70/30,195,"{""ridge__alpha"": 10.0}",1.7290927923995294
+Lasso regression (tuned),70/30,195,"{""lasso__alpha"": 0.1}",1.7043292515270068
+Random forest (tuned),70/30,195,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6313672138935087
+Gradient boosting (tuned),70/30,195,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6778721600725188
+Mean baseline,70/30,196,not tuned,
+Multiple linear regression,70/30,196,not tuned,
+Ridge regression (tuned),70/30,196,"{""ridge__alpha"": 10.0}",1.6964662679476223
+Lasso regression (tuned),70/30,196,"{""lasso__alpha"": 0.1}",1.6280947770659058
+Random forest (tuned),70/30,196,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6587970596750226
+Gradient boosting (tuned),70/30,196,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6542752024216312
+Mean baseline,70/30,197,not tuned,
+Multiple linear regression,70/30,197,not tuned,
+Ridge regression (tuned),70/30,197,"{""ridge__alpha"": 10.0}",1.6950352763154908
+Lasso regression (tuned),70/30,197,"{""lasso__alpha"": 0.1}",1.6823909772705676
+Random forest (tuned),70/30,197,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.733858906212994
+Gradient boosting (tuned),70/30,197,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.773756420429486
+Mean baseline,70/30,198,not tuned,
+Multiple linear regression,70/30,198,not tuned,
+Ridge regression (tuned),70/30,198,"{""ridge__alpha"": 10.0}",1.6642663412064913
+Lasso regression (tuned),70/30,198,"{""lasso__alpha"": 0.1}",1.6543496067982069
+Random forest (tuned),70/30,198,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6817455325288955
+Gradient boosting (tuned),70/30,198,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7064511194571146
+Mean baseline,70/30,199,not tuned,
+Multiple linear regression,70/30,199,not tuned,
+Ridge regression (tuned),70/30,199,"{""ridge__alpha"": 1.0}",1.6733274270690341
+Lasso regression (tuned),70/30,199,"{""lasso__alpha"": 0.01}",1.6684029589444775
+Random forest (tuned),70/30,199,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7723375870619495
+Gradient boosting (tuned),70/30,199,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7146768365235274
+Mean baseline,70/30,200,not tuned,
+Multiple linear regression,70/30,200,not tuned,
+Ridge regression (tuned),70/30,200,"{""ridge__alpha"": 10.0}",1.6698517314382613
+Lasso regression (tuned),70/30,200,"{""lasso__alpha"": 0.1}",1.640455239776188
+Random forest (tuned),70/30,200,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6855795880024378
+Gradient boosting (tuned),70/30,200,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7009619186873075
+Mean baseline,80/20,1,not tuned,
+Multiple linear regression,80/20,1,not tuned,
+Ridge regression (tuned),80/20,1,"{""ridge__alpha"": 10.0}",1.5579021585990251
+Lasso regression (tuned),80/20,1,"{""lasso__alpha"": 0.1}",1.508319968381017
+Random forest (tuned),80/20,1,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5462927273120375
+Gradient boosting (tuned),80/20,1,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5683550760330967
+Mean baseline,80/20,2,not tuned,
+Multiple linear regression,80/20,2,not tuned,
+Ridge regression (tuned),80/20,2,"{""ridge__alpha"": 10.0}",1.6180787049039664
+Lasso regression (tuned),80/20,2,"{""lasso__alpha"": 0.1}",1.5316719498593638
+Random forest (tuned),80/20,2,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.58524661791283
+Gradient boosting (tuned),80/20,2,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.579690760253286
+Mean baseline,80/20,3,not tuned,
+Multiple linear regression,80/20,3,not tuned,
+Ridge regression (tuned),80/20,3,"{""ridge__alpha"": 10.0}",1.5863250599236485
+Lasso regression (tuned),80/20,3,"{""lasso__alpha"": 0.1}",1.5097404108124532
+Random forest (tuned),80/20,3,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5509336210538864
+Gradient boosting (tuned),80/20,3,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5688187493312542
+Mean baseline,80/20,4,not tuned,
+Multiple linear regression,80/20,4,not tuned,
+Ridge regression (tuned),80/20,4,"{""ridge__alpha"": 10.0}",1.6711753487544918
+Lasso regression (tuned),80/20,4,"{""lasso__alpha"": 0.1}",1.592571779969256
+Random forest (tuned),80/20,4,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6297573557325582
+Gradient boosting (tuned),80/20,4,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5592621543541731
+Mean baseline,80/20,5,not tuned,
+Multiple linear regression,80/20,5,not tuned,
+Ridge regression (tuned),80/20,5,"{""ridge__alpha"": 1.0}",1.6031426504973265
+Lasso regression (tuned),80/20,5,"{""lasso__alpha"": 0.1}",1.582124907558147
+Random forest (tuned),80/20,5,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6234538583966862
+Gradient boosting (tuned),80/20,5,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6186195339979714
+Mean baseline,80/20,6,not tuned,
+Multiple linear regression,80/20,6,not tuned,
+Ridge regression (tuned),80/20,6,"{""ridge__alpha"": 10.0}",1.5795816265914198
+Lasso regression (tuned),80/20,6,"{""lasso__alpha"": 0.1}",1.5471404781464506
+Random forest (tuned),80/20,6,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5556244970244137
+Gradient boosting (tuned),80/20,6,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5940573409984855
+Mean baseline,80/20,7,not tuned,
+Multiple linear regression,80/20,7,not tuned,
+Ridge regression (tuned),80/20,7,"{""ridge__alpha"": 10.0}",1.69187242150173
+Lasso regression (tuned),80/20,7,"{""lasso__alpha"": 0.1}",1.6544388984219616
+Random forest (tuned),80/20,7,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6731655635189557
+Gradient boosting (tuned),80/20,7,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6710043789018247
+Mean baseline,80/20,8,not tuned,
+Multiple linear regression,80/20,8,not tuned,
+Ridge regression (tuned),80/20,8,"{""ridge__alpha"": 10.0}",1.8511157313421454
+Lasso regression (tuned),80/20,8,"{""lasso__alpha"": 0.1}",1.7576096150191378
+Random forest (tuned),80/20,8,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.8443278968567127
+Gradient boosting (tuned),80/20,8,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7847047443157074
+Mean baseline,80/20,9,not tuned,
+Multiple linear regression,80/20,9,not tuned,
+Ridge regression (tuned),80/20,9,"{""ridge__alpha"": 1.0}",1.6400836150609326
+Lasso regression (tuned),80/20,9,"{""lasso__alpha"": 0.1}",1.6160187760398332
+Random forest (tuned),80/20,9,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6018910875956223
+Gradient boosting (tuned),80/20,9,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5867923420482697
+Mean baseline,80/20,10,not tuned,
+Multiple linear regression,80/20,10,not tuned,
+Ridge regression (tuned),80/20,10,"{""ridge__alpha"": 10.0}",1.7359042576786468
+Lasso regression (tuned),80/20,10,"{""lasso__alpha"": 0.1}",1.6766404673655089
+Random forest (tuned),80/20,10,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7698080040946624
+Gradient boosting (tuned),80/20,10,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6998392754608513
+Mean baseline,80/20,11,not tuned,
+Multiple linear regression,80/20,11,not tuned,
+Ridge regression (tuned),80/20,11,"{""ridge__alpha"": 10.0}",1.638122681775613
+Lasso regression (tuned),80/20,11,"{""lasso__alpha"": 0.1}",1.5928762733727209
+Random forest (tuned),80/20,11,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5753400685151955
+Gradient boosting (tuned),80/20,11,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5918262052079364
+Mean baseline,80/20,12,not tuned,
+Multiple linear regression,80/20,12,not tuned,
+Ridge regression (tuned),80/20,12,"{""ridge__alpha"": 10.0}",1.7676699239888414
+Lasso regression (tuned),80/20,12,"{""lasso__alpha"": 0.1}",1.6772859866673557
+Random forest (tuned),80/20,12,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7129770548264074
+Gradient boosting (tuned),80/20,12,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6637213533213653
+Mean baseline,80/20,13,not tuned,
+Multiple linear regression,80/20,13,not tuned,
+Ridge regression (tuned),80/20,13,"{""ridge__alpha"": 1.0}",1.6434037560392092
+Lasso regression (tuned),80/20,13,"{""lasso__alpha"": 0.01}",1.6407884092302876
+Random forest (tuned),80/20,13,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6832757412395547
+Gradient boosting (tuned),80/20,13,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7241872496863277
+Mean baseline,80/20,14,not tuned,
+Multiple linear regression,80/20,14,not tuned,
+Ridge regression (tuned),80/20,14,"{""ridge__alpha"": 10.0}",1.6501728015477073
+Lasso regression (tuned),80/20,14,"{""lasso__alpha"": 0.1}",1.6312281567788283
+Random forest (tuned),80/20,14,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6690858788382585
+Gradient boosting (tuned),80/20,14,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.610423338748633
+Mean baseline,80/20,15,not tuned,
+Multiple linear regression,80/20,15,not tuned,
+Ridge regression (tuned),80/20,15,"{""ridge__alpha"": 10.0}",1.5997187225193445
+Lasso regression (tuned),80/20,15,"{""lasso__alpha"": 0.1}",1.5523914233409506
+Random forest (tuned),80/20,15,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6243157763554628
+Gradient boosting (tuned),80/20,15,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5549528962852333
+Mean baseline,80/20,16,not tuned,
+Multiple linear regression,80/20,16,not tuned,
+Ridge regression (tuned),80/20,16,"{""ridge__alpha"": 10.0}",1.4130998392397982
+Lasso regression (tuned),80/20,16,"{""lasso__alpha"": 0.1}",1.3742852681555067
+Random forest (tuned),80/20,16,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4288973461077266
+Gradient boosting (tuned),80/20,16,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.3953324952376787
+Mean baseline,80/20,17,not tuned,
+Multiple linear regression,80/20,17,not tuned,
+Ridge regression (tuned),80/20,17,"{""ridge__alpha"": 10.0}",1.6468373456661407
+Lasso regression (tuned),80/20,17,"{""lasso__alpha"": 0.1}",1.6061330232420432
+Random forest (tuned),80/20,17,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5872833480332613
+Gradient boosting (tuned),80/20,17,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.551824729954077
+Mean baseline,80/20,18,not tuned,
+Multiple linear regression,80/20,18,not tuned,
+Ridge regression (tuned),80/20,18,"{""ridge__alpha"": 10.0}",1.5321423230014326
+Lasso regression (tuned),80/20,18,"{""lasso__alpha"": 0.1}",1.4933789867565725
+Random forest (tuned),80/20,18,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4872202331384208
+Gradient boosting (tuned),80/20,18,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5936037207553153
+Mean baseline,80/20,19,not tuned,
+Multiple linear regression,80/20,19,not tuned,
+Ridge regression (tuned),80/20,19,"{""ridge__alpha"": 10.0}",1.7612096994171775
+Lasso regression (tuned),80/20,19,"{""lasso__alpha"": 0.1}",1.683901139284044
+Random forest (tuned),80/20,19,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7142300417876535
+Gradient boosting (tuned),80/20,19,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7240713224522246
+Mean baseline,80/20,20,not tuned,
+Multiple linear regression,80/20,20,not tuned,
+Ridge regression (tuned),80/20,20,"{""ridge__alpha"": 10.0}",1.6331041287823092
+Lasso regression (tuned),80/20,20,"{""lasso__alpha"": 0.1}",1.5852904152617375
+Random forest (tuned),80/20,20,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5487296628713634
+Gradient boosting (tuned),80/20,20,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5589834797609587
+Mean baseline,80/20,21,not tuned,
+Multiple linear regression,80/20,21,not tuned,
+Ridge regression (tuned),80/20,21,"{""ridge__alpha"": 10.0}",1.7256442055286698
+Lasso regression (tuned),80/20,21,"{""lasso__alpha"": 0.1}",1.6759401932004976
+Random forest (tuned),80/20,21,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7681755483195072
+Gradient boosting (tuned),80/20,21,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7651347060526383
+Mean baseline,80/20,22,not tuned,
+Multiple linear regression,80/20,22,not tuned,
+Ridge regression (tuned),80/20,22,"{""ridge__alpha"": 10.0}",1.7810490155528338
+Lasso regression (tuned),80/20,22,"{""lasso__alpha"": 0.1}",1.7335636670369676
+Random forest (tuned),80/20,22,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6660152681459568
+Gradient boosting (tuned),80/20,22,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.71764815628121
+Mean baseline,80/20,23,not tuned,
+Multiple linear regression,80/20,23,not tuned,
+Ridge regression (tuned),80/20,23,"{""ridge__alpha"": 10.0}",1.7725805755746802
+Lasso regression (tuned),80/20,23,"{""lasso__alpha"": 0.1}",1.742020400442549
+Random forest (tuned),80/20,23,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7126009789783214
+Gradient boosting (tuned),80/20,23,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7300793530032927
+Mean baseline,80/20,24,not tuned,
+Multiple linear regression,80/20,24,not tuned,
+Ridge regression (tuned),80/20,24,"{""ridge__alpha"": 10.0}",1.6432400639159799
+Lasso regression (tuned),80/20,24,"{""lasso__alpha"": 0.1}",1.6127705872212903
+Random forest (tuned),80/20,24,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6252411184570454
+Gradient boosting (tuned),80/20,24,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6156445641301083
+Mean baseline,80/20,25,not tuned,
+Multiple linear regression,80/20,25,not tuned,
+Ridge regression (tuned),80/20,25,"{""ridge__alpha"": 10.0}",1.7057281999345346
+Lasso regression (tuned),80/20,25,"{""lasso__alpha"": 0.1}",1.667371847331782
+Random forest (tuned),80/20,25,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7258917219439056
+Gradient boosting (tuned),80/20,25,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.626209365648723
+Mean baseline,80/20,26,not tuned,
+Multiple linear regression,80/20,26,not tuned,
+Ridge regression (tuned),80/20,26,"{""ridge__alpha"": 10.0}",1.7205097855326024
+Lasso regression (tuned),80/20,26,"{""lasso__alpha"": 0.1}",1.6634663952044537
+Random forest (tuned),80/20,26,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6261586977436786
+Gradient boosting (tuned),80/20,26,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6086512153142383
+Mean baseline,80/20,27,not tuned,
+Multiple linear regression,80/20,27,not tuned,
+Ridge regression (tuned),80/20,27,"{""ridge__alpha"": 10.0}",1.5787895941485768
+Lasso regression (tuned),80/20,27,"{""lasso__alpha"": 0.1}",1.5611210916522356
+Random forest (tuned),80/20,27,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.670278702518236
+Gradient boosting (tuned),80/20,27,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6490919668500355
+Mean baseline,80/20,28,not tuned,
+Multiple linear regression,80/20,28,not tuned,
+Ridge regression (tuned),80/20,28,"{""ridge__alpha"": 10.0}",1.4832578643007972
+Lasso regression (tuned),80/20,28,"{""lasso__alpha"": 0.1}",1.4499546518186726
+Random forest (tuned),80/20,28,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4228646493297616
+Gradient boosting (tuned),80/20,28,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4463151004451738
+Mean baseline,80/20,29,not tuned,
+Multiple linear regression,80/20,29,not tuned,
+Ridge regression (tuned),80/20,29,"{""ridge__alpha"": 10.0}",1.6586342591673293
+Lasso regression (tuned),80/20,29,"{""lasso__alpha"": 0.1}",1.6198116452313704
+Random forest (tuned),80/20,29,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6657748658935607
+Gradient boosting (tuned),80/20,29,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.634729761598571
+Mean baseline,80/20,30,not tuned,
+Multiple linear regression,80/20,30,not tuned,
+Ridge regression (tuned),80/20,30,"{""ridge__alpha"": 10.0}",1.7027361337956635
+Lasso regression (tuned),80/20,30,"{""lasso__alpha"": 0.1}",1.7063518857152746
+Random forest (tuned),80/20,30,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6960731960397908
+Gradient boosting (tuned),80/20,30,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6733873588815116
+Mean baseline,80/20,31,not tuned,
+Multiple linear regression,80/20,31,not tuned,
+Ridge regression (tuned),80/20,31,"{""ridge__alpha"": 10.0}",1.810297706011762
+Lasso regression (tuned),80/20,31,"{""lasso__alpha"": 0.1}",1.741381640341131
+Random forest (tuned),80/20,31,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7668213568621542
+Gradient boosting (tuned),80/20,31,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7472060160438452
+Mean baseline,80/20,32,not tuned,
+Multiple linear regression,80/20,32,not tuned,
+Ridge regression (tuned),80/20,32,"{""ridge__alpha"": 10.0}",1.635549531861417
+Lasso regression (tuned),80/20,32,"{""lasso__alpha"": 0.1}",1.572386090886268
+Random forest (tuned),80/20,32,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6077454294541915
+Gradient boosting (tuned),80/20,32,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6409090975656166
+Mean baseline,80/20,33,not tuned,
+Multiple linear regression,80/20,33,not tuned,
+Ridge regression (tuned),80/20,33,"{""ridge__alpha"": 10.0}",1.5266535391103093
+Lasso regression (tuned),80/20,33,"{""lasso__alpha"": 0.1}",1.4594316475134497
+Random forest (tuned),80/20,33,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5388646359077622
+Gradient boosting (tuned),80/20,33,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5059617795681084
+Mean baseline,80/20,34,not tuned,
+Multiple linear regression,80/20,34,not tuned,
+Ridge regression (tuned),80/20,34,"{""ridge__alpha"": 10.0}",1.7242930974873645
+Lasso regression (tuned),80/20,34,"{""lasso__alpha"": 0.1}",1.641468239605612
+Random forest (tuned),80/20,34,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6682524246795558
+Gradient boosting (tuned),80/20,34,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6446352418615369
+Mean baseline,80/20,35,not tuned,
+Multiple linear regression,80/20,35,not tuned,
+Ridge regression (tuned),80/20,35,"{""ridge__alpha"": 10.0}",1.6730266166300687
+Lasso regression (tuned),80/20,35,"{""lasso__alpha"": 0.1}",1.6424943428424754
+Random forest (tuned),80/20,35,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.680801424747004
+Gradient boosting (tuned),80/20,35,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6589375706359129
+Mean baseline,80/20,36,not tuned,
+Multiple linear regression,80/20,36,not tuned,
+Ridge regression (tuned),80/20,36,"{""ridge__alpha"": 10.0}",1.693914498976073
+Lasso regression (tuned),80/20,36,"{""lasso__alpha"": 0.1}",1.6555953220037511
+Random forest (tuned),80/20,36,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.640262042934181
+Gradient boosting (tuned),80/20,36,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.6106484962704832
+Mean baseline,80/20,37,not tuned,
+Multiple linear regression,80/20,37,not tuned,
+Ridge regression (tuned),80/20,37,"{""ridge__alpha"": 10.0}",1.6446069665437821
+Lasso regression (tuned),80/20,37,"{""lasso__alpha"": 0.1}",1.5983274436713852
+Random forest (tuned),80/20,37,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6288473893832898
+Gradient boosting (tuned),80/20,37,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.685166606249816
+Mean baseline,80/20,38,not tuned,
+Multiple linear regression,80/20,38,not tuned,
+Ridge regression (tuned),80/20,38,"{""ridge__alpha"": 10.0}",1.694788958665362
+Lasso regression (tuned),80/20,38,"{""lasso__alpha"": 0.1}",1.6375398300305748
+Random forest (tuned),80/20,38,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.60616923383741
+Gradient boosting (tuned),80/20,38,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6213186182889996
+Mean baseline,80/20,39,not tuned,
+Multiple linear regression,80/20,39,not tuned,
+Ridge regression (tuned),80/20,39,"{""ridge__alpha"": 10.0}",1.7022031073848887
+Lasso regression (tuned),80/20,39,"{""lasso__alpha"": 0.1}",1.6224543150237551
+Random forest (tuned),80/20,39,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6368976552211572
+Gradient boosting (tuned),80/20,39,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6517455740492655
+Mean baseline,80/20,40,not tuned,
+Multiple linear regression,80/20,40,not tuned,
+Ridge regression (tuned),80/20,40,"{""ridge__alpha"": 10.0}",1.505362523294712
+Lasso regression (tuned),80/20,40,"{""lasso__alpha"": 0.1}",1.4534804269562702
+Random forest (tuned),80/20,40,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5024148608719625
+Gradient boosting (tuned),80/20,40,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5031933302561953
+Mean baseline,80/20,41,not tuned,
+Multiple linear regression,80/20,41,not tuned,
+Ridge regression (tuned),80/20,41,"{""ridge__alpha"": 1.0}",1.5840328244259783
+Lasso regression (tuned),80/20,41,"{""lasso__alpha"": 0.1}",1.5414893884949534
+Random forest (tuned),80/20,41,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5597488713195817
+Gradient boosting (tuned),80/20,41,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5802935163336738
+Mean baseline,80/20,42,not tuned,
+Multiple linear regression,80/20,42,not tuned,
+Ridge regression (tuned),80/20,42,"{""ridge__alpha"": 10.0}",1.6000972016397803
+Lasso regression (tuned),80/20,42,"{""lasso__alpha"": 0.1}",1.5590416537429381
+Random forest (tuned),80/20,42,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5733410411185553
+Gradient boosting (tuned),80/20,42,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.633412681900421
+Mean baseline,80/20,43,not tuned,
+Multiple linear regression,80/20,43,not tuned,
+Ridge regression (tuned),80/20,43,"{""ridge__alpha"": 10.0}",1.6647957574691556
+Lasso regression (tuned),80/20,43,"{""lasso__alpha"": 0.1}",1.6356792514517124
+Random forest (tuned),80/20,43,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6571021677199114
+Gradient boosting (tuned),80/20,43,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.673560768448296
+Mean baseline,80/20,44,not tuned,
+Multiple linear regression,80/20,44,not tuned,
+Ridge regression (tuned),80/20,44,"{""ridge__alpha"": 100.0}",1.8083259888700898
+Lasso regression (tuned),80/20,44,"{""lasso__alpha"": 0.1}",1.7772689322726223
+Random forest (tuned),80/20,44,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6764648026361832
+Gradient boosting (tuned),80/20,44,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6494986804108271
+Mean baseline,80/20,45,not tuned,
+Multiple linear regression,80/20,45,not tuned,
+Ridge regression (tuned),80/20,45,"{""ridge__alpha"": 1.0}",1.5828899250856916
+Lasso regression (tuned),80/20,45,"{""lasso__alpha"": 0.1}",1.5680011430611192
+Random forest (tuned),80/20,45,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6621284938186647
+Gradient boosting (tuned),80/20,45,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6551803641124558
+Mean baseline,80/20,46,not tuned,
+Multiple linear regression,80/20,46,not tuned,
+Ridge regression (tuned),80/20,46,"{""ridge__alpha"": 10.0}",1.555680674629012
+Lasso regression (tuned),80/20,46,"{""lasso__alpha"": 0.1}",1.5489975455064109
+Random forest (tuned),80/20,46,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.676720334215021
+Gradient boosting (tuned),80/20,46,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.578391180759889
+Mean baseline,80/20,47,not tuned,
+Multiple linear regression,80/20,47,not tuned,
+Ridge regression (tuned),80/20,47,"{""ridge__alpha"": 10.0}",1.687285937855841
+Lasso regression (tuned),80/20,47,"{""lasso__alpha"": 0.1}",1.6356843356741215
+Random forest (tuned),80/20,47,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6674566141417688
+Gradient boosting (tuned),80/20,47,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7090659029712991
+Mean baseline,80/20,48,not tuned,
+Multiple linear regression,80/20,48,not tuned,
+Ridge regression (tuned),80/20,48,"{""ridge__alpha"": 10.0}",1.6711122279406396
+Lasso regression (tuned),80/20,48,"{""lasso__alpha"": 0.1}",1.611772687927866
+Random forest (tuned),80/20,48,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6090101658538152
+Gradient boosting (tuned),80/20,48,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6243175721655323
+Mean baseline,80/20,49,not tuned,
+Multiple linear regression,80/20,49,not tuned,
+Ridge regression (tuned),80/20,49,"{""ridge__alpha"": 10.0}",1.5970583047710307
+Lasso regression (tuned),80/20,49,"{""lasso__alpha"": 0.1}",1.5734692064011688
+Random forest (tuned),80/20,49,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6132824717528091
+Gradient boosting (tuned),80/20,49,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6156433545313156
+Mean baseline,80/20,50,not tuned,
+Multiple linear regression,80/20,50,not tuned,
+Ridge regression (tuned),80/20,50,"{""ridge__alpha"": 1.0}",1.5292354222419873
+Lasso regression (tuned),80/20,50,"{""lasso__alpha"": 0.1}",1.487118634899416
+Random forest (tuned),80/20,50,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6263077947473703
+Gradient boosting (tuned),80/20,50,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6352469972335606
+Mean baseline,80/20,51,not tuned,
+Multiple linear regression,80/20,51,not tuned,
+Ridge regression (tuned),80/20,51,"{""ridge__alpha"": 10.0}",1.7125844410513396
+Lasso regression (tuned),80/20,51,"{""lasso__alpha"": 0.1}",1.6811683919863836
+Random forest (tuned),80/20,51,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6835816770570382
+Gradient boosting (tuned),80/20,51,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7150034666975291
+Mean baseline,80/20,52,not tuned,
+Multiple linear regression,80/20,52,not tuned,
+Ridge regression (tuned),80/20,52,"{""ridge__alpha"": 10.0}",1.6669390081054458
+Lasso regression (tuned),80/20,52,"{""lasso__alpha"": 0.1}",1.5659839582427226
+Random forest (tuned),80/20,52,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5805913644941485
+Gradient boosting (tuned),80/20,52,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5949687826612418
+Mean baseline,80/20,53,not tuned,
+Multiple linear regression,80/20,53,not tuned,
+Ridge regression (tuned),80/20,53,"{""ridge__alpha"": 10.0}",1.5981706086088792
+Lasso regression (tuned),80/20,53,"{""lasso__alpha"": 0.1}",1.523965452826058
+Random forest (tuned),80/20,53,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5796020829265327
+Gradient boosting (tuned),80/20,53,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5761841532050318
+Mean baseline,80/20,54,not tuned,
+Multiple linear regression,80/20,54,not tuned,
+Ridge regression (tuned),80/20,54,"{""ridge__alpha"": 10.0}",1.630558775691825
+Lasso regression (tuned),80/20,54,"{""lasso__alpha"": 0.1}",1.5257139090254301
+Random forest (tuned),80/20,54,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5696073097855059
+Gradient boosting (tuned),80/20,54,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5655220936194845
+Mean baseline,80/20,55,not tuned,
+Multiple linear regression,80/20,55,not tuned,
+Ridge regression (tuned),80/20,55,"{""ridge__alpha"": 10.0}",1.6556170059379962
+Lasso regression (tuned),80/20,55,"{""lasso__alpha"": 0.1}",1.5576949860987805
+Random forest (tuned),80/20,55,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.572459142755114
+Gradient boosting (tuned),80/20,55,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.641191565964366
+Mean baseline,80/20,56,not tuned,
+Multiple linear regression,80/20,56,not tuned,
+Ridge regression (tuned),80/20,56,"{""ridge__alpha"": 10.0}",1.6755069431550933
+Lasso regression (tuned),80/20,56,"{""lasso__alpha"": 0.1}",1.6324210706338889
+Random forest (tuned),80/20,56,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7120827536411045
+Gradient boosting (tuned),80/20,56,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6594916985240769
+Mean baseline,80/20,57,not tuned,
+Multiple linear regression,80/20,57,not tuned,
+Ridge regression (tuned),80/20,57,"{""ridge__alpha"": 10.0}",1.7052510668625267
+Lasso regression (tuned),80/20,57,"{""lasso__alpha"": 0.1}",1.6780295014867754
+Random forest (tuned),80/20,57,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6335818887520976
+Gradient boosting (tuned),80/20,57,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.5760634910159854
+Mean baseline,80/20,58,not tuned,
+Multiple linear regression,80/20,58,not tuned,
+Ridge regression (tuned),80/20,58,"{""ridge__alpha"": 10.0}",1.6317593501967065
+Lasso regression (tuned),80/20,58,"{""lasso__alpha"": 0.1}",1.628797869375994
+Random forest (tuned),80/20,58,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6522108524913564
+Gradient boosting (tuned),80/20,58,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6459951040225385
+Mean baseline,80/20,59,not tuned,
+Multiple linear regression,80/20,59,not tuned,
+Ridge regression (tuned),80/20,59,"{""ridge__alpha"": 10.0}",1.7019430290195476
+Lasso regression (tuned),80/20,59,"{""lasso__alpha"": 0.1}",1.6299782330859762
+Random forest (tuned),80/20,59,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5911806744083417
+Gradient boosting (tuned),80/20,59,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5963354725542431
+Mean baseline,80/20,60,not tuned,
+Multiple linear regression,80/20,60,not tuned,
+Ridge regression (tuned),80/20,60,"{""ridge__alpha"": 10.0}",1.6645785562478594
+Lasso regression (tuned),80/20,60,"{""lasso__alpha"": 0.1}",1.6255811949307297
+Random forest (tuned),80/20,60,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.656602773038743
+Gradient boosting (tuned),80/20,60,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6842623013052034
+Mean baseline,80/20,61,not tuned,
+Multiple linear regression,80/20,61,not tuned,
+Ridge regression (tuned),80/20,61,"{""ridge__alpha"": 10.0}",1.4725771731379758
+Lasso regression (tuned),80/20,61,"{""lasso__alpha"": 0.1}",1.411268896486656
+Random forest (tuned),80/20,61,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.4820905464757428
+Gradient boosting (tuned),80/20,61,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4681178888458386
+Mean baseline,80/20,62,not tuned,
+Multiple linear regression,80/20,62,not tuned,
+Ridge regression (tuned),80/20,62,"{""ridge__alpha"": 10.0}",1.5833292522594062
+Lasso regression (tuned),80/20,62,"{""lasso__alpha"": 0.1}",1.552394856040372
+Random forest (tuned),80/20,62,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6462514502899144
+Gradient boosting (tuned),80/20,62,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.669799689298051
+Mean baseline,80/20,63,not tuned,
+Multiple linear regression,80/20,63,not tuned,
+Ridge regression (tuned),80/20,63,"{""ridge__alpha"": 10.0}",1.626355408442788
+Lasso regression (tuned),80/20,63,"{""lasso__alpha"": 0.1}",1.5553426834429895
+Random forest (tuned),80/20,63,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6710670436362236
+Gradient boosting (tuned),80/20,63,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6902922485214606
+Mean baseline,80/20,64,not tuned,
+Multiple linear regression,80/20,64,not tuned,
+Ridge regression (tuned),80/20,64,"{""ridge__alpha"": 10.0}",1.5550936057483475
+Lasso regression (tuned),80/20,64,"{""lasso__alpha"": 0.1}",1.5149819187095226
+Random forest (tuned),80/20,64,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5469902963116422
+Gradient boosting (tuned),80/20,64,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5362289923077277
+Mean baseline,80/20,65,not tuned,
+Multiple linear regression,80/20,65,not tuned,
+Ridge regression (tuned),80/20,65,"{""ridge__alpha"": 10.0}",1.7060872261944877
+Lasso regression (tuned),80/20,65,"{""lasso__alpha"": 0.1}",1.6717467976883076
+Random forest (tuned),80/20,65,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6211532123603143
+Gradient boosting (tuned),80/20,65,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6392561171314537
+Mean baseline,80/20,66,not tuned,
+Multiple linear regression,80/20,66,not tuned,
+Ridge regression (tuned),80/20,66,"{""ridge__alpha"": 10.0}",1.6313331681911276
+Lasso regression (tuned),80/20,66,"{""lasso__alpha"": 0.1}",1.6037071125993279
+Random forest (tuned),80/20,66,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5943234598574434
+Gradient boosting (tuned),80/20,66,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5916988020215879
+Mean baseline,80/20,67,not tuned,
+Multiple linear regression,80/20,67,not tuned,
+Ridge regression (tuned),80/20,67,"{""ridge__alpha"": 10.0}",1.6921918800233549
+Lasso regression (tuned),80/20,67,"{""lasso__alpha"": 0.1}",1.6610111954191193
+Random forest (tuned),80/20,67,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7380175841358168
+Gradient boosting (tuned),80/20,67,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7330206799131698
+Mean baseline,80/20,68,not tuned,
+Multiple linear regression,80/20,68,not tuned,
+Ridge regression (tuned),80/20,68,"{""ridge__alpha"": 10.0}",1.6610908894298515
+Lasso regression (tuned),80/20,68,"{""lasso__alpha"": 0.1}",1.6170429278751741
+Random forest (tuned),80/20,68,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6939682670993697
+Gradient boosting (tuned),80/20,68,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6866879578366032
+Mean baseline,80/20,69,not tuned,
+Multiple linear regression,80/20,69,not tuned,
+Ridge regression (tuned),80/20,69,"{""ridge__alpha"": 10.0}",1.7284970553254646
+Lasso regression (tuned),80/20,69,"{""lasso__alpha"": 0.1}",1.7012953342716557
+Random forest (tuned),80/20,69,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7533571424327732
+Gradient boosting (tuned),80/20,69,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6951176906394696
+Mean baseline,80/20,70,not tuned,
+Multiple linear regression,80/20,70,not tuned,
+Ridge regression (tuned),80/20,70,"{""ridge__alpha"": 10.0}",1.7229816583354882
+Lasso regression (tuned),80/20,70,"{""lasso__alpha"": 0.1}",1.674334060103621
+Random forest (tuned),80/20,70,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6971300154389763
+Gradient boosting (tuned),80/20,70,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.715145346006699
+Mean baseline,80/20,71,not tuned,
+Multiple linear regression,80/20,71,not tuned,
+Ridge regression (tuned),80/20,71,"{""ridge__alpha"": 10.0}",1.7010341098046975
+Lasso regression (tuned),80/20,71,"{""lasso__alpha"": 0.1}",1.6838800383350403
+Random forest (tuned),80/20,71,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5989222467786237
+Gradient boosting (tuned),80/20,71,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.666680688497919
+Mean baseline,80/20,72,not tuned,
+Multiple linear regression,80/20,72,not tuned,
+Ridge regression (tuned),80/20,72,"{""ridge__alpha"": 10.0}",1.7525840754763085
+Lasso regression (tuned),80/20,72,"{""lasso__alpha"": 0.1}",1.660276146619113
+Random forest (tuned),80/20,72,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7096547098933073
+Gradient boosting (tuned),80/20,72,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7008267390401148
+Mean baseline,80/20,73,not tuned,
+Multiple linear regression,80/20,73,not tuned,
+Ridge regression (tuned),80/20,73,"{""ridge__alpha"": 10.0}",1.499160037730908
+Lasso regression (tuned),80/20,73,"{""lasso__alpha"": 0.1}",1.4554147691535482
+Random forest (tuned),80/20,73,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4548446203373309
+Gradient boosting (tuned),80/20,73,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4627215927240105
+Mean baseline,80/20,74,not tuned,
+Multiple linear regression,80/20,74,not tuned,
+Ridge regression (tuned),80/20,74,"{""ridge__alpha"": 10.0}",1.4983833415200536
+Lasso regression (tuned),80/20,74,"{""lasso__alpha"": 0.1}",1.4285114750891055
+Random forest (tuned),80/20,74,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5614763645921963
+Gradient boosting (tuned),80/20,74,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5696004056620674
+Mean baseline,80/20,75,not tuned,
+Multiple linear regression,80/20,75,not tuned,
+Ridge regression (tuned),80/20,75,"{""ridge__alpha"": 1.0}",1.6079185020966462
+Lasso regression (tuned),80/20,75,"{""lasso__alpha"": 0.1}",1.5754424825512219
+Random forest (tuned),80/20,75,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6402226966747666
+Gradient boosting (tuned),80/20,75,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6334660678528958
+Mean baseline,80/20,76,not tuned,
+Multiple linear regression,80/20,76,not tuned,
+Ridge regression (tuned),80/20,76,"{""ridge__alpha"": 10.0}",1.6550346740325275
+Lasso regression (tuned),80/20,76,"{""lasso__alpha"": 0.1}",1.6122471790270434
+Random forest (tuned),80/20,76,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6817040587540781
+Gradient boosting (tuned),80/20,76,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6911840391886082
+Mean baseline,80/20,77,not tuned,
+Multiple linear regression,80/20,77,not tuned,
+Ridge regression (tuned),80/20,77,"{""ridge__alpha"": 100.0}",1.7781521516840488
+Lasso regression (tuned),80/20,77,"{""lasso__alpha"": 0.1}",1.7474751558049193
+Random forest (tuned),80/20,77,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.709847115804947
+Gradient boosting (tuned),80/20,77,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7866831623649326
+Mean baseline,80/20,78,not tuned,
+Multiple linear regression,80/20,78,not tuned,
+Ridge regression (tuned),80/20,78,"{""ridge__alpha"": 10.0}",1.7804049823007808
+Lasso regression (tuned),80/20,78,"{""lasso__alpha"": 0.1}",1.7337843136081301
+Random forest (tuned),80/20,78,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6952949567258582
+Gradient boosting (tuned),80/20,78,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6737395745915749
+Mean baseline,80/20,79,not tuned,
+Multiple linear regression,80/20,79,not tuned,
+Ridge regression (tuned),80/20,79,"{""ridge__alpha"": 10.0}",1.6970136325043614
+Lasso regression (tuned),80/20,79,"{""lasso__alpha"": 0.1}",1.6360040868774157
+Random forest (tuned),80/20,79,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6424600687971025
+Gradient boosting (tuned),80/20,79,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6201898369736079
+Mean baseline,80/20,80,not tuned,
+Multiple linear regression,80/20,80,not tuned,
+Ridge regression (tuned),80/20,80,"{""ridge__alpha"": 10.0}",1.5288830552275225
+Lasso regression (tuned),80/20,80,"{""lasso__alpha"": 0.1}",1.5180383482804922
+Random forest (tuned),80/20,80,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5016198890160513
+Gradient boosting (tuned),80/20,80,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.520236960678048
+Mean baseline,80/20,81,not tuned,
+Multiple linear regression,80/20,81,not tuned,
+Ridge regression (tuned),80/20,81,"{""ridge__alpha"": 10.0}",1.6171161616760101
+Lasso regression (tuned),80/20,81,"{""lasso__alpha"": 0.1}",1.571265421738202
+Random forest (tuned),80/20,81,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.55655387747598
+Gradient boosting (tuned),80/20,81,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5747094063117781
+Mean baseline,80/20,82,not tuned,
+Multiple linear regression,80/20,82,not tuned,
+Ridge regression (tuned),80/20,82,"{""ridge__alpha"": 10.0}",1.6559672825158667
+Lasso regression (tuned),80/20,82,"{""lasso__alpha"": 0.1}",1.6333624297231573
+Random forest (tuned),80/20,82,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5286738976647396
+Gradient boosting (tuned),80/20,82,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5233476283942557
+Mean baseline,80/20,83,not tuned,
+Multiple linear regression,80/20,83,not tuned,
+Ridge regression (tuned),80/20,83,"{""ridge__alpha"": 10.0}",1.6699256684726123
+Lasso regression (tuned),80/20,83,"{""lasso__alpha"": 0.1}",1.6287326364938077
+Random forest (tuned),80/20,83,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5884273018048465
+Gradient boosting (tuned),80/20,83,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5900361906645335
+Mean baseline,80/20,84,not tuned,
+Multiple linear regression,80/20,84,not tuned,
+Ridge regression (tuned),80/20,84,"{""ridge__alpha"": 10.0}",1.6231045312522858
+Lasso regression (tuned),80/20,84,"{""lasso__alpha"": 0.1}",1.5988150802680674
+Random forest (tuned),80/20,84,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.599626597373914
+Gradient boosting (tuned),80/20,84,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5880972845187322
+Mean baseline,80/20,85,not tuned,
+Multiple linear regression,80/20,85,not tuned,
+Ridge regression (tuned),80/20,85,"{""ridge__alpha"": 10.0}",1.695612968131544
+Lasso regression (tuned),80/20,85,"{""lasso__alpha"": 0.1}",1.6493170028459239
+Random forest (tuned),80/20,85,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6295255516731568
+Gradient boosting (tuned),80/20,85,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6063632922488442
+Mean baseline,80/20,86,not tuned,
+Multiple linear regression,80/20,86,not tuned,
+Ridge regression (tuned),80/20,86,"{""ridge__alpha"": 10.0}",1.5772718937381804
+Lasso regression (tuned),80/20,86,"{""lasso__alpha"": 0.1}",1.526815459568835
+Random forest (tuned),80/20,86,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.583524663131162
+Gradient boosting (tuned),80/20,86,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5811163739892358
+Mean baseline,80/20,87,not tuned,
+Multiple linear regression,80/20,87,not tuned,
+Ridge regression (tuned),80/20,87,"{""ridge__alpha"": 10.0}",1.6699658303701372
+Lasso regression (tuned),80/20,87,"{""lasso__alpha"": 0.1}",1.6242292412898665
+Random forest (tuned),80/20,87,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5456671222279574
+Gradient boosting (tuned),80/20,87,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5747868571778116
+Mean baseline,80/20,88,not tuned,
+Multiple linear regression,80/20,88,not tuned,
+Ridge regression (tuned),80/20,88,"{""ridge__alpha"": 10.0}",1.6747759201770243
+Lasso regression (tuned),80/20,88,"{""lasso__alpha"": 0.1}",1.653746728439445
+Random forest (tuned),80/20,88,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6988825670120395
+Gradient boosting (tuned),80/20,88,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.7010662852884622
+Mean baseline,80/20,89,not tuned,
+Multiple linear regression,80/20,89,not tuned,
+Ridge regression (tuned),80/20,89,"{""ridge__alpha"": 10.0}",1.6452983815710525
+Lasso regression (tuned),80/20,89,"{""lasso__alpha"": 0.1}",1.608997688105124
+Random forest (tuned),80/20,89,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5898867955459817
+Gradient boosting (tuned),80/20,89,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5979659229990864
+Mean baseline,80/20,90,not tuned,
+Multiple linear regression,80/20,90,not tuned,
+Ridge regression (tuned),80/20,90,"{""ridge__alpha"": 100.0}",1.8187581276560305
+Lasso regression (tuned),80/20,90,"{""lasso__alpha"": 0.1}",1.7449874227409174
+Random forest (tuned),80/20,90,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.698729957634604
+Gradient boosting (tuned),80/20,90,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6384643990047554
+Mean baseline,80/20,91,not tuned,
+Multiple linear regression,80/20,91,not tuned,
+Ridge regression (tuned),80/20,91,"{""ridge__alpha"": 10.0}",1.6187177284801357
+Lasso regression (tuned),80/20,91,"{""lasso__alpha"": 0.1}",1.6015063120334219
+Random forest (tuned),80/20,91,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.621883243851613
+Gradient boosting (tuned),80/20,91,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6492032380568624
+Mean baseline,80/20,92,not tuned,
+Multiple linear regression,80/20,92,not tuned,
+Ridge regression (tuned),80/20,92,"{""ridge__alpha"": 10.0}",1.7067152150115135
+Lasso regression (tuned),80/20,92,"{""lasso__alpha"": 0.1}",1.604958461594952
+Random forest (tuned),80/20,92,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6569145269187853
+Gradient boosting (tuned),80/20,92,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6834110209784967
+Mean baseline,80/20,93,not tuned,
+Multiple linear regression,80/20,93,not tuned,
+Ridge regression (tuned),80/20,93,"{""ridge__alpha"": 10.0}",1.6564168464195106
+Lasso regression (tuned),80/20,93,"{""lasso__alpha"": 0.1}",1.6096689200102539
+Random forest (tuned),80/20,93,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.692899942301858
+Gradient boosting (tuned),80/20,93,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6830813127543696
+Mean baseline,80/20,94,not tuned,
+Multiple linear regression,80/20,94,not tuned,
+Ridge regression (tuned),80/20,94,"{""ridge__alpha"": 10.0}",1.4844887060451337
+Lasso regression (tuned),80/20,94,"{""lasso__alpha"": 0.1}",1.4686516397925007
+Random forest (tuned),80/20,94,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5018935468336474
+Gradient boosting (tuned),80/20,94,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5159420889325566
+Mean baseline,80/20,95,not tuned,
+Multiple linear regression,80/20,95,not tuned,
+Ridge regression (tuned),80/20,95,"{""ridge__alpha"": 10.0}",1.7025308304908102
+Lasso regression (tuned),80/20,95,"{""lasso__alpha"": 0.1}",1.6696116416646998
+Random forest (tuned),80/20,95,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6209225193419274
+Gradient boosting (tuned),80/20,95,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6425278951925555
+Mean baseline,80/20,96,not tuned,
+Multiple linear regression,80/20,96,not tuned,
+Ridge regression (tuned),80/20,96,"{""ridge__alpha"": 100.0}",1.769827954824433
+Lasso regression (tuned),80/20,96,"{""lasso__alpha"": 0.1}",1.724556615321946
+Random forest (tuned),80/20,96,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6804802445246516
+Gradient boosting (tuned),80/20,96,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7462640623359724
+Mean baseline,80/20,97,not tuned,
+Multiple linear regression,80/20,97,not tuned,
+Ridge regression (tuned),80/20,97,"{""ridge__alpha"": 10.0}",1.6267668626572742
+Lasso regression (tuned),80/20,97,"{""lasso__alpha"": 0.1}",1.619131591762296
+Random forest (tuned),80/20,97,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6121605410640378
+Gradient boosting (tuned),80/20,97,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6014147925952493
+Mean baseline,80/20,98,not tuned,
+Multiple linear regression,80/20,98,not tuned,
+Ridge regression (tuned),80/20,98,"{""ridge__alpha"": 10.0}",1.6991355914094086
+Lasso regression (tuned),80/20,98,"{""lasso__alpha"": 0.1}",1.6336199578021202
+Random forest (tuned),80/20,98,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6814361769496067
+Gradient boosting (tuned),80/20,98,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6606621744042094
+Mean baseline,80/20,99,not tuned,
+Multiple linear regression,80/20,99,not tuned,
+Ridge regression (tuned),80/20,99,"{""ridge__alpha"": 10.0}",1.6812666850680138
+Lasso regression (tuned),80/20,99,"{""lasso__alpha"": 0.1}",1.6139403248519595
+Random forest (tuned),80/20,99,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6603431606377559
+Gradient boosting (tuned),80/20,99,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5657766226436363
+Mean baseline,80/20,100,not tuned,
+Multiple linear regression,80/20,100,not tuned,
+Ridge regression (tuned),80/20,100,"{""ridge__alpha"": 10.0}",1.649564541131965
+Lasso regression (tuned),80/20,100,"{""lasso__alpha"": 0.1}",1.6240149858798514
+Random forest (tuned),80/20,100,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7331559072565976
+Gradient boosting (tuned),80/20,100,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6881608407923792
+Mean baseline,80/20,101,not tuned,
+Multiple linear regression,80/20,101,not tuned,
+Ridge regression (tuned),80/20,101,"{""ridge__alpha"": 10.0}",1.7639056409618319
+Lasso regression (tuned),80/20,101,"{""lasso__alpha"": 0.1}",1.6965820493909525
+Random forest (tuned),80/20,101,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6734904194856752
+Gradient boosting (tuned),80/20,101,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7366911920296317
+Mean baseline,80/20,102,not tuned,
+Multiple linear regression,80/20,102,not tuned,
+Ridge regression (tuned),80/20,102,"{""ridge__alpha"": 10.0}",1.6937135563017407
+Lasso regression (tuned),80/20,102,"{""lasso__alpha"": 0.1}",1.6357735125152426
+Random forest (tuned),80/20,102,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6325800100923562
+Gradient boosting (tuned),80/20,102,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6495304366383663
+Mean baseline,80/20,103,not tuned,
+Multiple linear regression,80/20,103,not tuned,
+Ridge regression (tuned),80/20,103,"{""ridge__alpha"": 100.0}",1.7516422308622546
+Lasso regression (tuned),80/20,103,"{""lasso__alpha"": 0.1}",1.7123684695358992
+Random forest (tuned),80/20,103,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6350046207009494
+Gradient boosting (tuned),80/20,103,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6916910578171762
+Mean baseline,80/20,104,not tuned,
+Multiple linear regression,80/20,104,not tuned,
+Ridge regression (tuned),80/20,104,"{""ridge__alpha"": 10.0}",1.6158839930073459
+Lasso regression (tuned),80/20,104,"{""lasso__alpha"": 0.1}",1.5825030406089302
+Random forest (tuned),80/20,104,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.646669633821471
+Gradient boosting (tuned),80/20,104,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6563027264729662
+Mean baseline,80/20,105,not tuned,
+Multiple linear regression,80/20,105,not tuned,
+Ridge regression (tuned),80/20,105,"{""ridge__alpha"": 10.0}",1.564446015194044
+Lasso regression (tuned),80/20,105,"{""lasso__alpha"": 0.1}",1.5335522212633355
+Random forest (tuned),80/20,105,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6295996656459395
+Gradient boosting (tuned),80/20,105,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6001318602002683
+Mean baseline,80/20,106,not tuned,
+Multiple linear regression,80/20,106,not tuned,
+Ridge regression (tuned),80/20,106,"{""ridge__alpha"": 10.0}",1.6055322092022881
+Lasso regression (tuned),80/20,106,"{""lasso__alpha"": 0.1}",1.5514341624188748
+Random forest (tuned),80/20,106,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5649337816688584
+Gradient boosting (tuned),80/20,106,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5674927608689693
+Mean baseline,80/20,107,not tuned,
+Multiple linear regression,80/20,107,not tuned,
+Ridge regression (tuned),80/20,107,"{""ridge__alpha"": 10.0}",1.6073626194424715
+Lasso regression (tuned),80/20,107,"{""lasso__alpha"": 0.1}",1.5367113663188519
+Random forest (tuned),80/20,107,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6090597816331786
+Gradient boosting (tuned),80/20,107,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6456827067344897
+Mean baseline,80/20,108,not tuned,
+Multiple linear regression,80/20,108,not tuned,
+Ridge regression (tuned),80/20,108,"{""ridge__alpha"": 10.0}",1.6136012442637244
+Lasso regression (tuned),80/20,108,"{""lasso__alpha"": 0.1}",1.5646697113620411
+Random forest (tuned),80/20,108,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6236701427725653
+Gradient boosting (tuned),80/20,108,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.661679356089595
+Mean baseline,80/20,109,not tuned,
+Multiple linear regression,80/20,109,not tuned,
+Ridge regression (tuned),80/20,109,"{""ridge__alpha"": 100.0}",1.6529799628254331
+Lasso regression (tuned),80/20,109,"{""lasso__alpha"": 0.1}",1.602943599241576
+Random forest (tuned),80/20,109,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5761721951705614
+Gradient boosting (tuned),80/20,109,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5984123241049546
+Mean baseline,80/20,110,not tuned,
+Multiple linear regression,80/20,110,not tuned,
+Ridge regression (tuned),80/20,110,"{""ridge__alpha"": 10.0}",1.6098705955592234
+Lasso regression (tuned),80/20,110,"{""lasso__alpha"": 0.1}",1.597861225458696
+Random forest (tuned),80/20,110,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6325774599764167
+Gradient boosting (tuned),80/20,110,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.679345566079979
+Mean baseline,80/20,111,not tuned,
+Multiple linear regression,80/20,111,not tuned,
+Ridge regression (tuned),80/20,111,"{""ridge__alpha"": 10.0}",1.6613142000518455
+Lasso regression (tuned),80/20,111,"{""lasso__alpha"": 0.1}",1.6025142569582116
+Random forest (tuned),80/20,111,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.612206127779419
+Gradient boosting (tuned),80/20,111,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6286368646439484
+Mean baseline,80/20,112,not tuned,
+Multiple linear regression,80/20,112,not tuned,
+Ridge regression (tuned),80/20,112,"{""ridge__alpha"": 10.0}",1.7544392311445343
+Lasso regression (tuned),80/20,112,"{""lasso__alpha"": 0.1}",1.6460035281298833
+Random forest (tuned),80/20,112,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6567609840741002
+Gradient boosting (tuned),80/20,112,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7056481360331142
+Mean baseline,80/20,113,not tuned,
+Multiple linear regression,80/20,113,not tuned,
+Ridge regression (tuned),80/20,113,"{""ridge__alpha"": 10.0}",1.7287692813607713
+Lasso regression (tuned),80/20,113,"{""lasso__alpha"": 0.1}",1.6763458889496436
+Random forest (tuned),80/20,113,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6779389949956105
+Gradient boosting (tuned),80/20,113,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6901290761285253
+Mean baseline,80/20,114,not tuned,
+Multiple linear regression,80/20,114,not tuned,
+Ridge regression (tuned),80/20,114,"{""ridge__alpha"": 10.0}",1.6421535563095204
+Lasso regression (tuned),80/20,114,"{""lasso__alpha"": 0.1}",1.6143746876072829
+Random forest (tuned),80/20,114,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6730165184130257
+Gradient boosting (tuned),80/20,114,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.646083681751825
+Mean baseline,80/20,115,not tuned,
+Multiple linear regression,80/20,115,not tuned,
+Ridge regression (tuned),80/20,115,"{""ridge__alpha"": 10.0}",1.7877291584417456
+Lasso regression (tuned),80/20,115,"{""lasso__alpha"": 0.1}",1.7346814197632168
+Random forest (tuned),80/20,115,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7123339137846039
+Gradient boosting (tuned),80/20,115,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6610384236221016
+Mean baseline,80/20,116,not tuned,
+Multiple linear regression,80/20,116,not tuned,
+Ridge regression (tuned),80/20,116,"{""ridge__alpha"": 10.0}",1.6706280862212093
+Lasso regression (tuned),80/20,116,"{""lasso__alpha"": 0.1}",1.6320638116220416
+Random forest (tuned),80/20,116,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.606155462890996
+Gradient boosting (tuned),80/20,116,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.619479742592543
+Mean baseline,80/20,117,not tuned,
+Multiple linear regression,80/20,117,not tuned,
+Ridge regression (tuned),80/20,117,"{""ridge__alpha"": 10.0}",1.7586280535326977
+Lasso regression (tuned),80/20,117,"{""lasso__alpha"": 0.1}",1.6900748119436706
+Random forest (tuned),80/20,117,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6318097510928584
+Gradient boosting (tuned),80/20,117,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.652312092098019
+Mean baseline,80/20,118,not tuned,
+Multiple linear regression,80/20,118,not tuned,
+Ridge regression (tuned),80/20,118,"{""ridge__alpha"": 10.0}",1.7977066485707436
+Lasso regression (tuned),80/20,118,"{""lasso__alpha"": 0.1}",1.7708870588653407
+Random forest (tuned),80/20,118,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7532512282235224
+Gradient boosting (tuned),80/20,118,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.68623618961552
+Mean baseline,80/20,119,not tuned,
+Multiple linear regression,80/20,119,not tuned,
+Ridge regression (tuned),80/20,119,"{""ridge__alpha"": 10.0}",1.638507868812572
+Lasso regression (tuned),80/20,119,"{""lasso__alpha"": 0.1}",1.5750781681462027
+Random forest (tuned),80/20,119,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.577332513848844
+Gradient boosting (tuned),80/20,119,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5267730709197633
+Mean baseline,80/20,120,not tuned,
+Multiple linear regression,80/20,120,not tuned,
+Ridge regression (tuned),80/20,120,"{""ridge__alpha"": 10.0}",1.603150496914827
+Lasso regression (tuned),80/20,120,"{""lasso__alpha"": 0.1}",1.5798591753243785
+Random forest (tuned),80/20,120,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5933415100116897
+Gradient boosting (tuned),80/20,120,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5272357700916555
+Mean baseline,80/20,121,not tuned,
+Multiple linear regression,80/20,121,not tuned,
+Ridge regression (tuned),80/20,121,"{""ridge__alpha"": 10.0}",1.761688736237432
+Lasso regression (tuned),80/20,121,"{""lasso__alpha"": 0.1}",1.690530853707734
+Random forest (tuned),80/20,121,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7341393006812027
+Gradient boosting (tuned),80/20,121,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.73615720955963
+Mean baseline,80/20,122,not tuned,
+Multiple linear regression,80/20,122,not tuned,
+Ridge regression (tuned),80/20,122,"{""ridge__alpha"": 10.0}",1.6542274328094457
+Lasso regression (tuned),80/20,122,"{""lasso__alpha"": 0.1}",1.6130680871027891
+Random forest (tuned),80/20,122,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6402978785475522
+Gradient boosting (tuned),80/20,122,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.650435285948467
+Mean baseline,80/20,123,not tuned,
+Multiple linear regression,80/20,123,not tuned,
+Ridge regression (tuned),80/20,123,"{""ridge__alpha"": 10.0}",1.73656254582501
+Lasso regression (tuned),80/20,123,"{""lasso__alpha"": 0.1}",1.680950598311793
+Random forest (tuned),80/20,123,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.705487566046002
+Gradient boosting (tuned),80/20,123,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6913136582722792
+Mean baseline,80/20,124,not tuned,
+Multiple linear regression,80/20,124,not tuned,
+Ridge regression (tuned),80/20,124,"{""ridge__alpha"": 10.0}",1.5571702201766358
+Lasso regression (tuned),80/20,124,"{""lasso__alpha"": 0.1}",1.5276882603625812
+Random forest (tuned),80/20,124,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5462817911729274
+Gradient boosting (tuned),80/20,124,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6060794579953932
+Mean baseline,80/20,125,not tuned,
+Multiple linear regression,80/20,125,not tuned,
+Ridge regression (tuned),80/20,125,"{""ridge__alpha"": 100.0}",1.6415886795698325
+Lasso regression (tuned),80/20,125,"{""lasso__alpha"": 0.1}",1.5617420610316228
+Random forest (tuned),80/20,125,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5210027979427987
+Gradient boosting (tuned),80/20,125,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5342491554321764
+Mean baseline,80/20,126,not tuned,
+Multiple linear regression,80/20,126,not tuned,
+Ridge regression (tuned),80/20,126,"{""ridge__alpha"": 10.0}",1.4525042493316431
+Lasso regression (tuned),80/20,126,"{""lasso__alpha"": 0.1}",1.4193527035386229
+Random forest (tuned),80/20,126,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.426930937154382
+Gradient boosting (tuned),80/20,126,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4070997733598172
+Mean baseline,80/20,127,not tuned,
+Multiple linear regression,80/20,127,not tuned,
+Ridge regression (tuned),80/20,127,"{""ridge__alpha"": 10.0}",1.7758259104641863
+Lasso regression (tuned),80/20,127,"{""lasso__alpha"": 0.1}",1.727286300351221
+Random forest (tuned),80/20,127,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6813241908987386
+Gradient boosting (tuned),80/20,127,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.715344052624087
+Mean baseline,80/20,128,not tuned,
+Multiple linear regression,80/20,128,not tuned,
+Ridge regression (tuned),80/20,128,"{""ridge__alpha"": 10.0}",1.6257997225235177
+Lasso regression (tuned),80/20,128,"{""lasso__alpha"": 0.1}",1.6034217514491922
+Random forest (tuned),80/20,128,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6195394412935549
+Gradient boosting (tuned),80/20,128,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6517186279624454
+Mean baseline,80/20,129,not tuned,
+Multiple linear regression,80/20,129,not tuned,
+Ridge regression (tuned),80/20,129,"{""ridge__alpha"": 10.0}",1.5139495471647741
+Lasso regression (tuned),80/20,129,"{""lasso__alpha"": 0.1}",1.5118432428391533
+Random forest (tuned),80/20,129,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6412556688008302
+Gradient boosting (tuned),80/20,129,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5348314937207015
+Mean baseline,80/20,130,not tuned,
+Multiple linear regression,80/20,130,not tuned,
+Ridge regression (tuned),80/20,130,"{""ridge__alpha"": 10.0}",1.6626614785591134
+Lasso regression (tuned),80/20,130,"{""lasso__alpha"": 0.1}",1.6258122413992713
+Random forest (tuned),80/20,130,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7022912322157673
+Gradient boosting (tuned),80/20,130,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.708413816727088
+Mean baseline,80/20,131,not tuned,
+Multiple linear regression,80/20,131,not tuned,
+Ridge regression (tuned),80/20,131,"{""ridge__alpha"": 10.0}",1.5859571977112972
+Lasso regression (tuned),80/20,131,"{""lasso__alpha"": 0.1}",1.5439454905489964
+Random forest (tuned),80/20,131,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.597597031337026
+Gradient boosting (tuned),80/20,131,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.607739792733674
+Mean baseline,80/20,132,not tuned,
+Multiple linear regression,80/20,132,not tuned,
+Ridge regression (tuned),80/20,132,"{""ridge__alpha"": 10.0}",1.6517399428441255
+Lasso regression (tuned),80/20,132,"{""lasso__alpha"": 0.1}",1.5923152837257681
+Random forest (tuned),80/20,132,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5563712182387412
+Gradient boosting (tuned),80/20,132,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5998237573571785
+Mean baseline,80/20,133,not tuned,
+Multiple linear regression,80/20,133,not tuned,
+Ridge regression (tuned),80/20,133,"{""ridge__alpha"": 10.0}",1.7118736283433944
+Lasso regression (tuned),80/20,133,"{""lasso__alpha"": 0.1}",1.66846791318664
+Random forest (tuned),80/20,133,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5771819269587342
+Gradient boosting (tuned),80/20,133,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.661354495488379
+Mean baseline,80/20,134,not tuned,
+Multiple linear regression,80/20,134,not tuned,
+Ridge regression (tuned),80/20,134,"{""ridge__alpha"": 10.0}",1.5435155365437438
+Lasso regression (tuned),80/20,134,"{""lasso__alpha"": 0.1}",1.528647378582436
+Random forest (tuned),80/20,134,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6228383965759101
+Gradient boosting (tuned),80/20,134,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5629825625483305
+Mean baseline,80/20,135,not tuned,
+Multiple linear regression,80/20,135,not tuned,
+Ridge regression (tuned),80/20,135,"{""ridge__alpha"": 10.0}",1.6354595936799678
+Lasso regression (tuned),80/20,135,"{""lasso__alpha"": 0.1}",1.6111118039670067
+Random forest (tuned),80/20,135,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.686509618177863
+Gradient boosting (tuned),80/20,135,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7227736268579446
+Mean baseline,80/20,136,not tuned,
+Multiple linear regression,80/20,136,not tuned,
+Ridge regression (tuned),80/20,136,"{""ridge__alpha"": 10.0}",1.6262078031812508
+Lasso regression (tuned),80/20,136,"{""lasso__alpha"": 0.1}",1.6192707445724914
+Random forest (tuned),80/20,136,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6773804140752577
+Gradient boosting (tuned),80/20,136,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7158275890746844
+Mean baseline,80/20,137,not tuned,
+Multiple linear regression,80/20,137,not tuned,
+Ridge regression (tuned),80/20,137,"{""ridge__alpha"": 10.0}",1.7172497014903
+Lasso regression (tuned),80/20,137,"{""lasso__alpha"": 0.1}",1.6246058731168724
+Random forest (tuned),80/20,137,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6176341466395705
+Gradient boosting (tuned),80/20,137,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.650530405591655
+Mean baseline,80/20,138,not tuned,
+Multiple linear regression,80/20,138,not tuned,
+Ridge regression (tuned),80/20,138,"{""ridge__alpha"": 10.0}",1.789113642473703
+Lasso regression (tuned),80/20,138,"{""lasso__alpha"": 0.1}",1.7274488844631768
+Random forest (tuned),80/20,138,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7119319368255475
+Gradient boosting (tuned),80/20,138,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7218913141570642
+Mean baseline,80/20,139,not tuned,
+Multiple linear regression,80/20,139,not tuned,
+Ridge regression (tuned),80/20,139,"{""ridge__alpha"": 10.0}",1.6987248981614211
+Lasso regression (tuned),80/20,139,"{""lasso__alpha"": 0.1}",1.6673027798442028
+Random forest (tuned),80/20,139,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6814103911209384
+Gradient boosting (tuned),80/20,139,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7147880703649956
+Mean baseline,80/20,140,not tuned,
+Multiple linear regression,80/20,140,not tuned,
+Ridge regression (tuned),80/20,140,"{""ridge__alpha"": 10.0}",1.5456167547748376
+Lasso regression (tuned),80/20,140,"{""lasso__alpha"": 0.1}",1.4792583564703148
+Random forest (tuned),80/20,140,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.471631572751697
+Gradient boosting (tuned),80/20,140,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4578351899939577
+Mean baseline,80/20,141,not tuned,
+Multiple linear regression,80/20,141,not tuned,
+Ridge regression (tuned),80/20,141,"{""ridge__alpha"": 10.0}",1.670415490598004
+Lasso regression (tuned),80/20,141,"{""lasso__alpha"": 0.1}",1.6105300207685829
+Random forest (tuned),80/20,141,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6216582170327425
+Gradient boosting (tuned),80/20,141,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6141125082179422
+Mean baseline,80/20,142,not tuned,
+Multiple linear regression,80/20,142,not tuned,
+Ridge regression (tuned),80/20,142,"{""ridge__alpha"": 10.0}",1.5909258012250362
+Lasso regression (tuned),80/20,142,"{""lasso__alpha"": 0.1}",1.5250042235351486
+Random forest (tuned),80/20,142,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.625459942797847
+Gradient boosting (tuned),80/20,142,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5594318196545636
+Mean baseline,80/20,143,not tuned,
+Multiple linear regression,80/20,143,not tuned,
+Ridge regression (tuned),80/20,143,"{""ridge__alpha"": 10.0}",1.5542880911112065
+Lasso regression (tuned),80/20,143,"{""lasso__alpha"": 0.1}",1.5262192839811726
+Random forest (tuned),80/20,143,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6025108732250122
+Gradient boosting (tuned),80/20,143,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5820440526455108
+Mean baseline,80/20,144,not tuned,
+Multiple linear regression,80/20,144,not tuned,
+Ridge regression (tuned),80/20,144,"{""ridge__alpha"": 10.0}",1.7317114218569973
+Lasso regression (tuned),80/20,144,"{""lasso__alpha"": 0.1}",1.693852058978241
+Random forest (tuned),80/20,144,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7067069372704082
+Gradient boosting (tuned),80/20,144,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7386904463548045
+Mean baseline,80/20,145,not tuned,
+Multiple linear regression,80/20,145,not tuned,
+Ridge regression (tuned),80/20,145,"{""ridge__alpha"": 10.0}",1.5004823851316036
+Lasso regression (tuned),80/20,145,"{""lasso__alpha"": 0.1}",1.459713925714734
+Random forest (tuned),80/20,145,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.511827719173535
+Gradient boosting (tuned),80/20,145,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5275173038837242
+Mean baseline,80/20,146,not tuned,
+Multiple linear regression,80/20,146,not tuned,
+Ridge regression (tuned),80/20,146,"{""ridge__alpha"": 10.0}",1.7406793352163537
+Lasso regression (tuned),80/20,146,"{""lasso__alpha"": 0.1}",1.6634571473116027
+Random forest (tuned),80/20,146,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6468861696984003
+Gradient boosting (tuned),80/20,146,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6680478446836429
+Mean baseline,80/20,147,not tuned,
+Multiple linear regression,80/20,147,not tuned,
+Ridge regression (tuned),80/20,147,"{""ridge__alpha"": 10.0}",1.7327699694001004
+Lasso regression (tuned),80/20,147,"{""lasso__alpha"": 0.1}",1.687537074867386
+Random forest (tuned),80/20,147,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7236591204951615
+Gradient boosting (tuned),80/20,147,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7379027607847692
+Mean baseline,80/20,148,not tuned,
+Multiple linear regression,80/20,148,not tuned,
+Ridge regression (tuned),80/20,148,"{""ridge__alpha"": 10.0}",1.5854915753337608
+Lasso regression (tuned),80/20,148,"{""lasso__alpha"": 0.1}",1.563144352031194
+Random forest (tuned),80/20,148,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5887277264182293
+Gradient boosting (tuned),80/20,148,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5113180738161485
+Mean baseline,80/20,149,not tuned,
+Multiple linear regression,80/20,149,not tuned,
+Ridge regression (tuned),80/20,149,"{""ridge__alpha"": 10.0}",1.688604585862624
+Lasso regression (tuned),80/20,149,"{""lasso__alpha"": 0.1}",1.5724793127367795
+Random forest (tuned),80/20,149,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6226949283384582
+Gradient boosting (tuned),80/20,149,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6159146618691296
+Mean baseline,80/20,150,not tuned,
+Multiple linear regression,80/20,150,not tuned,
+Ridge regression (tuned),80/20,150,"{""ridge__alpha"": 10.0}",1.5992055831068612
+Lasso regression (tuned),80/20,150,"{""lasso__alpha"": 0.1}",1.5905704711105693
+Random forest (tuned),80/20,150,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5743677436907155
+Gradient boosting (tuned),80/20,150,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5853336810381848
+Mean baseline,80/20,151,not tuned,
+Multiple linear regression,80/20,151,not tuned,
+Ridge regression (tuned),80/20,151,"{""ridge__alpha"": 10.0}",1.5966074180050491
+Lasso regression (tuned),80/20,151,"{""lasso__alpha"": 0.1}",1.5775840149711793
+Random forest (tuned),80/20,151,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5908253457671229
+Gradient boosting (tuned),80/20,151,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.580088396513723
+Mean baseline,80/20,152,not tuned,
+Multiple linear regression,80/20,152,not tuned,
+Ridge regression (tuned),80/20,152,"{""ridge__alpha"": 10.0}",1.565543533446378
+Lasso regression (tuned),80/20,152,"{""lasso__alpha"": 0.01}",1.5693481258061024
+Random forest (tuned),80/20,152,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5927926022068655
+Gradient boosting (tuned),80/20,152,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5806270713540287
+Mean baseline,80/20,153,not tuned,
+Multiple linear regression,80/20,153,not tuned,
+Ridge regression (tuned),80/20,153,"{""ridge__alpha"": 10.0}",1.70276933653748
+Lasso regression (tuned),80/20,153,"{""lasso__alpha"": 0.1}",1.6193025732057797
+Random forest (tuned),80/20,153,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6665732623403933
+Gradient boosting (tuned),80/20,153,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7188715880203518
+Mean baseline,80/20,154,not tuned,
+Multiple linear regression,80/20,154,not tuned,
+Ridge regression (tuned),80/20,154,"{""ridge__alpha"": 10.0}",1.635779027875031
+Lasso regression (tuned),80/20,154,"{""lasso__alpha"": 0.1}",1.6339823737524284
+Random forest (tuned),80/20,154,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6485144642722187
+Gradient boosting (tuned),80/20,154,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6956028206650307
+Mean baseline,80/20,155,not tuned,
+Multiple linear regression,80/20,155,not tuned,
+Ridge regression (tuned),80/20,155,"{""ridge__alpha"": 10.0}",1.7258758531327296
+Lasso regression (tuned),80/20,155,"{""lasso__alpha"": 0.1}",1.6933107454663745
+Random forest (tuned),80/20,155,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7099259345339088
+Gradient boosting (tuned),80/20,155,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7366486665202405
+Mean baseline,80/20,156,not tuned,
+Multiple linear regression,80/20,156,not tuned,
+Ridge regression (tuned),80/20,156,"{""ridge__alpha"": 10.0}",1.5285538849695657
+Lasso regression (tuned),80/20,156,"{""lasso__alpha"": 0.1}",1.4895896274228018
+Random forest (tuned),80/20,156,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4567664019233484
+Gradient boosting (tuned),80/20,156,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4985545907460043
+Mean baseline,80/20,157,not tuned,
+Multiple linear regression,80/20,157,not tuned,
+Ridge regression (tuned),80/20,157,"{""ridge__alpha"": 10.0}",1.6439316857889898
+Lasso regression (tuned),80/20,157,"{""lasso__alpha"": 0.1}",1.5786001267797374
+Random forest (tuned),80/20,157,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.660247670869363
+Gradient boosting (tuned),80/20,157,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6415934885144723
+Mean baseline,80/20,158,not tuned,
+Multiple linear regression,80/20,158,not tuned,
+Ridge regression (tuned),80/20,158,"{""ridge__alpha"": 10.0}",1.633444855873363
+Lasso regression (tuned),80/20,158,"{""lasso__alpha"": 0.1}",1.5894904486791686
+Random forest (tuned),80/20,158,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6337044283936664
+Gradient boosting (tuned),80/20,158,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5387712123535686
+Mean baseline,80/20,159,not tuned,
+Multiple linear regression,80/20,159,not tuned,
+Ridge regression (tuned),80/20,159,"{""ridge__alpha"": 10.0}",1.7428059185720983
+Lasso regression (tuned),80/20,159,"{""lasso__alpha"": 0.1}",1.6971715578138191
+Random forest (tuned),80/20,159,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7951505286582914
+Gradient boosting (tuned),80/20,159,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.8039090046393902
+Mean baseline,80/20,160,not tuned,
+Multiple linear regression,80/20,160,not tuned,
+Ridge regression (tuned),80/20,160,"{""ridge__alpha"": 10.0}",1.6248604324137268
+Lasso regression (tuned),80/20,160,"{""lasso__alpha"": 0.1}",1.5787145060140648
+Random forest (tuned),80/20,160,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.634563338994321
+Gradient boosting (tuned),80/20,160,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6440393720427533
+Mean baseline,80/20,161,not tuned,
+Multiple linear regression,80/20,161,not tuned,
+Ridge regression (tuned),80/20,161,"{""ridge__alpha"": 10.0}",1.5663112998670123
+Lasso regression (tuned),80/20,161,"{""lasso__alpha"": 0.1}",1.5463793097732859
+Random forest (tuned),80/20,161,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6165309247522366
+Gradient boosting (tuned),80/20,161,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6107788836986756
+Mean baseline,80/20,162,not tuned,
+Multiple linear regression,80/20,162,not tuned,
+Ridge regression (tuned),80/20,162,"{""ridge__alpha"": 10.0}",1.6822694867238153
+Lasso regression (tuned),80/20,162,"{""lasso__alpha"": 0.1}",1.6235403520787315
+Random forest (tuned),80/20,162,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6491990844306081
+Gradient boosting (tuned),80/20,162,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6484578957255978
+Mean baseline,80/20,163,not tuned,
+Multiple linear regression,80/20,163,not tuned,
+Ridge regression (tuned),80/20,163,"{""ridge__alpha"": 10.0}",1.6761065411728115
+Lasso regression (tuned),80/20,163,"{""lasso__alpha"": 0.1}",1.615041540432293
+Random forest (tuned),80/20,163,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6013962570413827
+Gradient boosting (tuned),80/20,163,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5890376693171864
+Mean baseline,80/20,164,not tuned,
+Multiple linear regression,80/20,164,not tuned,
+Ridge regression (tuned),80/20,164,"{""ridge__alpha"": 10.0}",1.6185450847568084
+Lasso regression (tuned),80/20,164,"{""lasso__alpha"": 0.1}",1.5637505438441675
+Random forest (tuned),80/20,164,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5634077970277582
+Gradient boosting (tuned),80/20,164,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.48305427953612
+Mean baseline,80/20,165,not tuned,
+Multiple linear regression,80/20,165,not tuned,
+Ridge regression (tuned),80/20,165,"{""ridge__alpha"": 10.0}",1.7067769777829294
+Lasso regression (tuned),80/20,165,"{""lasso__alpha"": 0.1}",1.6834498613216198
+Random forest (tuned),80/20,165,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6780181396640497
+Gradient boosting (tuned),80/20,165,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6956991030506032
+Mean baseline,80/20,166,not tuned,
+Multiple linear regression,80/20,166,not tuned,
+Ridge regression (tuned),80/20,166,"{""ridge__alpha"": 10.0}",1.687707578098
+Lasso regression (tuned),80/20,166,"{""lasso__alpha"": 0.1}",1.6260684304983477
+Random forest (tuned),80/20,166,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.682391329131034
+Gradient boosting (tuned),80/20,166,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6976493986668437
+Mean baseline,80/20,167,not tuned,
+Multiple linear regression,80/20,167,not tuned,
+Ridge regression (tuned),80/20,167,"{""ridge__alpha"": 10.0}",1.6592723463279913
+Lasso regression (tuned),80/20,167,"{""lasso__alpha"": 0.1}",1.618841249494603
+Random forest (tuned),80/20,167,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5831597317009038
+Gradient boosting (tuned),80/20,167,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5740430605642457
+Mean baseline,80/20,168,not tuned,
+Multiple linear regression,80/20,168,not tuned,
+Ridge regression (tuned),80/20,168,"{""ridge__alpha"": 10.0}",1.6165603703699003
+Lasso regression (tuned),80/20,168,"{""lasso__alpha"": 0.1}",1.5255853831718398
+Random forest (tuned),80/20,168,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5104214638634244
+Gradient boosting (tuned),80/20,168,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.460199705885581
+Mean baseline,80/20,169,not tuned,
+Multiple linear regression,80/20,169,not tuned,
+Ridge regression (tuned),80/20,169,"{""ridge__alpha"": 10.0}",1.5917264576006427
+Lasso regression (tuned),80/20,169,"{""lasso__alpha"": 0.1}",1.549178598799859
+Random forest (tuned),80/20,169,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6340816740162658
+Gradient boosting (tuned),80/20,169,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6435462616156542
+Mean baseline,80/20,170,not tuned,
+Multiple linear regression,80/20,170,not tuned,
+Ridge regression (tuned),80/20,170,"{""ridge__alpha"": 10.0}",1.6738757213060116
+Lasso regression (tuned),80/20,170,"{""lasso__alpha"": 0.1}",1.6679691519018405
+Random forest (tuned),80/20,170,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.613216777881025
+Gradient boosting (tuned),80/20,170,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6020635919610426
+Mean baseline,80/20,171,not tuned,
+Multiple linear regression,80/20,171,not tuned,
+Ridge regression (tuned),80/20,171,"{""ridge__alpha"": 10.0}",1.5186120084835126
+Lasso regression (tuned),80/20,171,"{""lasso__alpha"": 0.1}",1.4631736013924526
+Random forest (tuned),80/20,171,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.481607097551541
+Gradient boosting (tuned),80/20,171,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4463439938731644
+Mean baseline,80/20,172,not tuned,
+Multiple linear regression,80/20,172,not tuned,
+Ridge regression (tuned),80/20,172,"{""ridge__alpha"": 10.0}",1.5257590454117682
+Lasso regression (tuned),80/20,172,"{""lasso__alpha"": 0.1}",1.500968250646524
+Random forest (tuned),80/20,172,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.589100495847908
+Gradient boosting (tuned),80/20,172,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5548397550262252
+Mean baseline,80/20,173,not tuned,
+Multiple linear regression,80/20,173,not tuned,
+Ridge regression (tuned),80/20,173,"{""ridge__alpha"": 10.0}",1.7176640493629436
+Lasso regression (tuned),80/20,173,"{""lasso__alpha"": 0.1}",1.6417259565006475
+Random forest (tuned),80/20,173,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5998352874769997
+Gradient boosting (tuned),80/20,173,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6072845757099241
+Mean baseline,80/20,174,not tuned,
+Multiple linear regression,80/20,174,not tuned,
+Ridge regression (tuned),80/20,174,"{""ridge__alpha"": 10.0}",1.6586003815681951
+Lasso regression (tuned),80/20,174,"{""lasso__alpha"": 0.1}",1.608336019072634
+Random forest (tuned),80/20,174,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5964759475778127
+Gradient boosting (tuned),80/20,174,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5873570065960632
+Mean baseline,80/20,175,not tuned,
+Multiple linear regression,80/20,175,not tuned,
+Ridge regression (tuned),80/20,175,"{""ridge__alpha"": 10.0}",1.7009370667527435
+Lasso regression (tuned),80/20,175,"{""lasso__alpha"": 0.1}",1.6532154003886899
+Random forest (tuned),80/20,175,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7503050623299643
+Gradient boosting (tuned),80/20,175,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.701970685463639
+Mean baseline,80/20,176,not tuned,
+Multiple linear regression,80/20,176,not tuned,
+Ridge regression (tuned),80/20,176,"{""ridge__alpha"": 10.0}",1.647769227858563
+Lasso regression (tuned),80/20,176,"{""lasso__alpha"": 0.1}",1.5903817719167663
+Random forest (tuned),80/20,176,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.589216711613282
+Gradient boosting (tuned),80/20,176,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.606356494151005
+Mean baseline,80/20,177,not tuned,
+Multiple linear regression,80/20,177,not tuned,
+Ridge regression (tuned),80/20,177,"{""ridge__alpha"": 10.0}",1.8073804050234155
+Lasso regression (tuned),80/20,177,"{""lasso__alpha"": 0.1}",1.7514330233862327
+Random forest (tuned),80/20,177,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.7178140099359798
+Gradient boosting (tuned),80/20,177,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6871828235066033
+Mean baseline,80/20,178,not tuned,
+Multiple linear regression,80/20,178,not tuned,
+Ridge regression (tuned),80/20,178,"{""ridge__alpha"": 10.0}",1.5314197948778958
+Lasso regression (tuned),80/20,178,"{""lasso__alpha"": 0.1}",1.490037262703935
+Random forest (tuned),80/20,178,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.539522270959593
+Gradient boosting (tuned),80/20,178,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4832768328625383
+Mean baseline,80/20,179,not tuned,
+Multiple linear regression,80/20,179,not tuned,
+Ridge regression (tuned),80/20,179,"{""ridge__alpha"": 10.0}",1.6844851399119345
+Lasso regression (tuned),80/20,179,"{""lasso__alpha"": 0.1}",1.6313086568754624
+Random forest (tuned),80/20,179,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6728549938290307
+Gradient boosting (tuned),80/20,179,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7188462531874662
+Mean baseline,80/20,180,not tuned,
+Multiple linear regression,80/20,180,not tuned,
+Ridge regression (tuned),80/20,180,"{""ridge__alpha"": 10.0}",1.7256032104027366
+Lasso regression (tuned),80/20,180,"{""lasso__alpha"": 0.1}",1.6748608850576283
+Random forest (tuned),80/20,180,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6833595477073586
+Gradient boosting (tuned),80/20,180,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6387189438494065
+Mean baseline,80/20,181,not tuned,
+Multiple linear regression,80/20,181,not tuned,
+Ridge regression (tuned),80/20,181,"{""ridge__alpha"": 10.0}",1.6951178582752235
+Lasso regression (tuned),80/20,181,"{""lasso__alpha"": 0.1}",1.655271372497193
+Random forest (tuned),80/20,181,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6141491540694204
+Gradient boosting (tuned),80/20,181,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.587715428344507
+Mean baseline,80/20,182,not tuned,
+Multiple linear regression,80/20,182,not tuned,
+Ridge regression (tuned),80/20,182,"{""ridge__alpha"": 10.0}",1.7428347200634633
+Lasso regression (tuned),80/20,182,"{""lasso__alpha"": 0.1}",1.7015414592351985
+Random forest (tuned),80/20,182,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7375059794921583
+Gradient boosting (tuned),80/20,182,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.7133715773766003
+Mean baseline,80/20,183,not tuned,
+Multiple linear regression,80/20,183,not tuned,
+Ridge regression (tuned),80/20,183,"{""ridge__alpha"": 10.0}",1.6516108812411008
+Lasso regression (tuned),80/20,183,"{""lasso__alpha"": 0.1}",1.5762707346259233
+Random forest (tuned),80/20,183,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.4737186117234937
+Gradient boosting (tuned),80/20,183,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.452729367240012
+Mean baseline,80/20,184,not tuned,
+Multiple linear regression,80/20,184,not tuned,
+Ridge regression (tuned),80/20,184,"{""ridge__alpha"": 10.0}",1.7743609307502068
+Lasso regression (tuned),80/20,184,"{""lasso__alpha"": 0.1}",1.7018330513432072
+Random forest (tuned),80/20,184,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6825038149862674
+Gradient boosting (tuned),80/20,184,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6870322655457575
+Mean baseline,80/20,185,not tuned,
+Multiple linear regression,80/20,185,not tuned,
+Ridge regression (tuned),80/20,185,"{""ridge__alpha"": 10.0}",1.6941967573522625
+Lasso regression (tuned),80/20,185,"{""lasso__alpha"": 0.1}",1.6459970064624634
+Random forest (tuned),80/20,185,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7257385174009081
+Gradient boosting (tuned),80/20,185,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.71983101166004
+Mean baseline,80/20,186,not tuned,
+Multiple linear regression,80/20,186,not tuned,
+Ridge regression (tuned),80/20,186,"{""ridge__alpha"": 10.0}",1.5884092027777938
+Lasso regression (tuned),80/20,186,"{""lasso__alpha"": 0.1}",1.5463762014837832
+Random forest (tuned),80/20,186,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5396438418701888
+Gradient boosting (tuned),80/20,186,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.4868143700305185
+Mean baseline,80/20,187,not tuned,
+Multiple linear regression,80/20,187,not tuned,
+Ridge regression (tuned),80/20,187,"{""ridge__alpha"": 10.0}",1.7013820679065947
+Lasso regression (tuned),80/20,187,"{""lasso__alpha"": 0.1}",1.6673994116038748
+Random forest (tuned),80/20,187,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6895151055286899
+Gradient boosting (tuned),80/20,187,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6266605543223123
+Mean baseline,80/20,188,not tuned,
+Multiple linear regression,80/20,188,not tuned,
+Ridge regression (tuned),80/20,188,"{""ridge__alpha"": 10.0}",1.7156585164612537
+Lasso regression (tuned),80/20,188,"{""lasso__alpha"": 0.1}",1.682565422872128
+Random forest (tuned),80/20,188,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.7069208495515837
+Gradient boosting (tuned),80/20,188,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6649098256902235
+Mean baseline,80/20,189,not tuned,
+Multiple linear regression,80/20,189,not tuned,
+Ridge regression (tuned),80/20,189,"{""ridge__alpha"": 10.0}",1.6066080808502263
+Lasso regression (tuned),80/20,189,"{""lasso__alpha"": 0.1}",1.561646679581815
+Random forest (tuned),80/20,189,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5805599045257415
+Gradient boosting (tuned),80/20,189,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.607362337949064
+Mean baseline,80/20,190,not tuned,
+Multiple linear regression,80/20,190,not tuned,
+Ridge regression (tuned),80/20,190,"{""ridge__alpha"": 10.0}",1.6600575526125971
+Lasso regression (tuned),80/20,190,"{""lasso__alpha"": 0.1}",1.622499624934597
+Random forest (tuned),80/20,190,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.563864912727719
+Gradient boosting (tuned),80/20,190,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.573946226069115
+Mean baseline,80/20,191,not tuned,
+Multiple linear regression,80/20,191,not tuned,
+Ridge regression (tuned),80/20,191,"{""ridge__alpha"": 10.0}",1.6061445198954225
+Lasso regression (tuned),80/20,191,"{""lasso__alpha"": 0.1}",1.556083422262202
+Random forest (tuned),80/20,191,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.5414853614618154
+Gradient boosting (tuned),80/20,191,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.561987341079981
+Mean baseline,80/20,192,not tuned,
+Multiple linear regression,80/20,192,not tuned,
+Ridge regression (tuned),80/20,192,"{""ridge__alpha"": 10.0}",1.690654165783976
+Lasso regression (tuned),80/20,192,"{""lasso__alpha"": 0.1}",1.6010620452643927
+Random forest (tuned),80/20,192,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6449787016733761
+Gradient boosting (tuned),80/20,192,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6729671324651054
+Mean baseline,80/20,193,not tuned,
+Multiple linear regression,80/20,193,not tuned,
+Ridge regression (tuned),80/20,193,"{""ridge__alpha"": 10.0}",1.6879921407080913
+Lasso regression (tuned),80/20,193,"{""lasso__alpha"": 0.1}",1.6564589604989148
+Random forest (tuned),80/20,193,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6479203527151653
+Gradient boosting (tuned),80/20,193,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6343173032964518
+Mean baseline,80/20,194,not tuned,
+Multiple linear regression,80/20,194,not tuned,
+Ridge regression (tuned),80/20,194,"{""ridge__alpha"": 10.0}",1.6410036526178537
+Lasso regression (tuned),80/20,194,"{""lasso__alpha"": 0.1}",1.5909182440218075
+Random forest (tuned),80/20,194,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6165181783960563
+Gradient boosting (tuned),80/20,194,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.5971567905666204
+Mean baseline,80/20,195,not tuned,
+Multiple linear regression,80/20,195,not tuned,
+Ridge regression (tuned),80/20,195,"{""ridge__alpha"": 10.0}",1.6642947604041236
+Lasso regression (tuned),80/20,195,"{""lasso__alpha"": 0.1}",1.6550003264160087
+Random forest (tuned),80/20,195,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6693086844657778
+Gradient boosting (tuned),80/20,195,"{""max_depth"": 2, ""min_samples_leaf"": 3}",1.7109270556847307
+Mean baseline,80/20,196,not tuned,
+Multiple linear regression,80/20,196,not tuned,
+Ridge regression (tuned),80/20,196,"{""ridge__alpha"": 10.0}",1.5560913355996209
+Lasso regression (tuned),80/20,196,"{""lasso__alpha"": 0.1}",1.4968771332892197
+Random forest (tuned),80/20,196,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5767866346344221
+Gradient boosting (tuned),80/20,196,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5514189103497236
+Mean baseline,80/20,197,not tuned,
+Multiple linear regression,80/20,197,not tuned,
+Ridge regression (tuned),80/20,197,"{""ridge__alpha"": 10.0}",1.6627625315396863
+Lasso regression (tuned),80/20,197,"{""lasso__alpha"": 0.1}",1.625459365925216
+Random forest (tuned),80/20,197,"{""max_features"": 0.7, ""min_samples_leaf"": 2}",1.6520406075889735
+Gradient boosting (tuned),80/20,197,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6564427090211649
+Mean baseline,80/20,198,not tuned,
+Multiple linear regression,80/20,198,not tuned,
+Ridge regression (tuned),80/20,198,"{""ridge__alpha"": 10.0}",1.6932020573834206
+Lasso regression (tuned),80/20,198,"{""lasso__alpha"": 0.1}",1.6265195860068329
+Random forest (tuned),80/20,198,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6712506460483816
+Gradient boosting (tuned),80/20,198,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.624836318979837
+Mean baseline,80/20,199,not tuned,
+Multiple linear regression,80/20,199,not tuned,
+Ridge regression (tuned),80/20,199,"{""ridge__alpha"": 10.0}",1.5685270924142087
+Lasso regression (tuned),80/20,199,"{""lasso__alpha"": 0.1}",1.5631217243887927
+Random forest (tuned),80/20,199,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.6170031620749772
+Gradient boosting (tuned),80/20,199,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.6117341777636256
+Mean baseline,80/20,200,not tuned,
+Multiple linear regression,80/20,200,not tuned,
+Ridge regression (tuned),80/20,200,"{""ridge__alpha"": 10.0}",1.51804347808875
+Lasso regression (tuned),80/20,200,"{""lasso__alpha"": 0.1}",1.5065324105756681
+Random forest (tuned),80/20,200,"{""max_features"": 0.7, ""min_samples_leaf"": 5}",1.5519192138003561
+Gradient boosting (tuned),80/20,200,"{""max_depth"": 1, ""min_samples_leaf"": 3}",1.5586965962732076
