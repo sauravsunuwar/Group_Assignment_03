@@ -1,2 +1,0 @@
-diagnostic_split,OLS_intercept_raw_units,OLS_intercept_pvalue,Breusch_Pagan_LM_pvalue,Breusch_Pagan_F_pvalue,Cook_threshold_4_over_n,n_Cook_above_threshold,max_Cook_distance
-80/20 training data,0.12011525294933262,0.4933356091036831,0.19459919495940237,0.19756013231095185,0.04819277108433735,6,0.4669441922366657
