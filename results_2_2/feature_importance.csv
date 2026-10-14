@@ -1,9 +1,0 @@
-,OLS_std_coef,Ridge_std_coef,RF_importance,GB_importance
-avg_goals_scored_before,0.0548,0.0506,0.0457,0.0545
-opponent_avg_goals_conceded_before,0.1202,0.1285,0.1435,0.1704
-team_fifa_points,0.5372,0.4022,0.3467,0.3214
-opponent_fifa_points,-0.3192,-0.2769,0.2678,0.2833
-win_rate_before,-0.2036,-0.0819,0.043,0.0216
-opponent_scoring_match_rate_before,-0.0162,-0.0269,0.025,0.0072
-avg_goal_difference_before,0.139,0.1003,0.082,0.1054
-opponent_clean_sheet_rate_before,-0.1395,-0.12,0.0463,0.0363
