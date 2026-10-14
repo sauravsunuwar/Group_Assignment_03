@@ -1,0 +1,2 @@
+rows,unique_match_ids,missing_modelling_cells,target_order_verified,host_indicator_minus_one,host_indicator_zero,host_indicator_plus_one,fifa_difference_verified,other_six_difference_variables_verified
+104,104,0,True,4,89,11,"yes, 104 rows home minus away (ranking reference)",not fully independently verifiable without upstream team-match feature table
