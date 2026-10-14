@@ -1,0 +1,2 @@
+split,n_train,bp_LM_p,bp_F_p,n_cooks_above_4_n,max_cooks_distance,cooks_threshold,ols_intercept,ols_intercept_p,host_effect_coefficient,host_effect_p,train_residual_skew,train_residual_shapiro_p_exploratory
+80/20 training,83,0.19459919495940237,0.19756013231095185,6,0.4669441922366657,0.04819277108433735,0.12011525294933262,0.4933356091036831,0.6486265378235154,0.2181838278746535,0.2313370304571016,0.6772679976086492

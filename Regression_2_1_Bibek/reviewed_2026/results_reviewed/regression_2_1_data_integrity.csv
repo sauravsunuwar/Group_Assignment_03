@@ -1,0 +1,2 @@
+n_rows,unique_match_ids,missing_required_cells,target_matches_home_minus_away,host_minus_one,host_zero,host_plus_one,fifa_home_minus_away_verified,other_six_features_independently_verified,notes,changed_feature_cells_vs_original,changed_match_rows_vs_original
+104,104,0,True,4,89,11,True,False,Other six historical-form inputs need original point-in-time feature building script for full verification.,52,9
