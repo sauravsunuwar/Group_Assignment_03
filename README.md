@@ -3,9 +3,11 @@
 
 **Charles Darwin University (CDU)**  
 **Unit:** HIT140 – Foundations of Data Science  
-**Assessment:** Assessment 3 – Group Project  
+**Assessment:** Assessment 3 – Group Project
+**Submitted To:** Yakub Sebastian
 **Submission date:** 15 October 2026  
 **GitHub repository:** https://github.com/sauravsunuwar/Group_Assignment_03
+
 
 ---
 
@@ -28,10 +30,10 @@ This README provides the complete technical documentation supporting the four-pa
 
 | Member | Contribution |
 |---|---|
-| **Bibek** | Regression 2.1 modelling, diagnostics and results |
-| **Anish** | Regression 2.2 modelling, diagnostics and results |
-| **Shuvo** | Contribution pending confirmation |
-| **Saurab** | Data preparation, feature engineering, validation, documentation and GitHub integration |
+| **Bibek Gurung** | Regression 2.1 modelling, diagnostics and results |
+| **Anish Bhattarai** | Regression 2.2 modelling, diagnostics and results |
+| **Swagata Dey Shuvo** | Contribution pending confirmation |
+| **Saurab Kumar Sununwara** | Data preparation, feature engineering, validation, documentation and GitHub integration |
 
 Contributions are documented according to the work currently confirmed by the group.
 
@@ -176,7 +178,7 @@ The presence of validation scripts supports reproducibility, although successful
 
 ## 6. Regression 2.1 – Goal Difference Prediction
 
-**Contributor:** Bibek
+**Contributor:** Bibek Gurung
 
 ### 6.1 Prediction Target
 
@@ -288,7 +290,7 @@ A model may predict reasonably well while still violating assumptions relevant t
 
 ## 7. Regression 2.2 – Team Goals Scored Prediction
 
-**Contributor:** Anish
+**Contributor:** Anish Bhattarai
 
 ### 7.1 Prediction Target
 
