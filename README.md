@@ -35,7 +35,7 @@ This README provides the complete technical documentation supporting the four-pa
 | **Bibek Gurung** | Regression 2.1 modelling, diagnostics and results |
 | **Anish Bhattarai** | Regression 2.2 modelling, diagnostics and results |
 | **Swagata Dey Shuvo** | Contribution pending confirmation |
-| **Saurab Kumar Sununwar** | Data preparation, feature engineering, validation, documentation and GitHub integration |
+| **Saurab Kumar Sunuwar** | Data preparation, feature engineering, validation, documentation and GitHub integration |
 
 Contributions are documented according to the work currently confirmed by the group.
 
